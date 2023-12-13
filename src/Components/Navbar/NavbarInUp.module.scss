@@ -1,0 +1,86 @@
+@import "../../Scss/measure";
+
+.section {
+  display: none;
+  @include responsive768 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+    background-color: #ddf2fd;
+  }
+  @include responsive1024 {
+    padding: 5px 20px;
+  }
+  .locationContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    @include responsive1024 {
+      font-size: 15px;
+    }
+  }
+  .numbersAndSosialNetworksElements {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    @include responsive1024 {
+      gap: 70px;
+    }
+    .numbersElement {
+      display: flex;
+      gap: 15px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .whatsappElement,
+      .callElement,
+      .mailElement {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        cursor: pointer;
+        font-size: 13px;
+        @include responsive1024 {
+          font-size: 15px;
+        }
+        i {
+          font-size: 19px;
+          @include responsive1024 {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+    .sosialNetworkElement {
+      a {
+        cursor: pointer;
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+        @include responsive1024 {
+          font-size: 20px;
+        }
+      }
+      a:nth-child(2) {
+        padding: 0 10px;
+        @include responsive1024 {
+          padding: 0 15px;
+        }
+      }
+      a:last-child {
+        padding-left: 10px;
+        @include responsive1024 {
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}

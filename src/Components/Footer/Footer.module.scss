@@ -1,0 +1,112 @@
+@import "../../Scss/measure";
+
+.section {
+  background-color: #164863;
+  .headerText {
+    text-align: center;
+    padding: 10px 0;
+    p {
+      color: #ddf2fd;
+      font-size: 14px;
+      @include responsive450 {
+        font-size: 16px;
+      }
+      @include responsive768 {
+        font-size: 18px;
+      }
+      @include responsive1024 {
+        font-size: 20px;
+      }
+      @include responsive1200 {
+        font-size: 22px;
+      }
+    }
+  }
+  .sosialNetwork {
+    @include responsive450 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .firstPart {
+      text-align: center;
+      i {
+        padding: 0 10px;
+        font-size: 25px;
+        padding-bottom: 20px;
+        color: #ddf2fd;
+        cursor: pointer;
+        @include responsive600 {
+          padding: 0 20px;
+          padding-bottom: 20px;
+        }
+        @include responsive1200 {
+          font-size: 30px;
+        }
+      }
+    }
+    .secondPart {
+      text-align: center;
+      i {
+        padding: 0 10px;
+        font-size: 25px;
+        padding-bottom: 20px;
+        color: #ddf2fd;
+        cursor: pointer;
+        @include responsive600 {
+          padding: 0 20px;
+          padding-bottom: 20px;
+        }
+        @include responsive1200 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .numbersAndMailContainer {
+    text-align: center;
+    padding-bottom: 20px;
+    @include responsive600 {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    @include responsive768 {
+      gap: 20px;
+    }
+    .whatsaapNumberElement,
+    .callNumberElement,
+    .mailContainer {
+      padding: 5px 0;
+      i {
+        color: #ddf2fd;
+        font-size: 17px;
+        padding-right: 5px;
+        @include responsive450 {
+          font-size: 20px;
+        }
+        @include responsive768 {
+          font-size: 22px;
+          padding-right: 10px;
+        }
+        @include responsive1024 {
+          font-size: 24px;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #ddf2fd;
+        font-size: 14px;
+        @include responsive450 {
+          font-size: 16px;
+        }
+        @include responsive768 {
+          font-size: 18px;
+        }
+        @include responsive1024 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

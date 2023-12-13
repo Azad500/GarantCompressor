@@ -1,0 +1,131 @@
+@import "../../Scss/measure";
+
+.dropdownElement {
+  position: absolute;
+  right: 30px;
+  @include responsive768 {
+    right: 0;
+  }
+  .dropdownLanguageSelected {
+    width: 1px;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    cursor: pointer;
+    .languageonPage {
+      font-size: 12px;
+      font-weight: 600;
+      color: #ddf2fd;
+      padding-top: 15px;
+      @include responsive1024 {
+        font-size: 17px;
+      }
+    }
+    i {
+      padding-left: 3px;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+      font-size: 8px;
+      color: #ddf2fd;
+      @include responsive1024 {
+        font-size: 10px;
+      }
+    }
+  }
+  .languageElement {
+    z-index: 300;
+    position: absolute;
+    width: 40px;
+    display: none;
+    margin-top: 5px;
+    list-style: none;
+    background: #ddf2fd;
+    border: 1px solid black;
+    backdrop-filter: blur(38.5px);
+    border-radius: 5px;
+    margin-top: 10px;
+    @include responsive768 {
+      width: 50px;
+    }
+    @include responsive1024 {
+      margin-top: 15px;
+    }
+    .firstLanguage {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .thirdLanguage {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .checkAndLanguage {
+      display: flex;
+      justify-content: end;
+      background-color: #ddf2fd;
+      padding-right: 0;
+      cursor: pointer;
+      @include responsive768 {
+        padding-right: 5px;
+      }
+      &:hover {
+        background-color: #427d9d;
+      }
+      .checkIcon {
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+        @include responsive768 {
+          font-size: 17px;
+          padding-left: 3px;
+          padding-right: 2px;
+        }
+      }
+      .langText {
+        width: 1px;
+        color: rgb(0, 0, 0);
+        text-align: end;
+        margin-bottom: 2px;
+        margin-top: 3.5px;
+        cursor: pointer;
+        font-size: 14px;
+        padding-right: 22px;
+        @include responsive768 {
+          padding-right: 25px;
+        }
+        @include responsive1024 {
+          font-size: 17px;
+        }
+      }
+    }
+    .checkAndLanguage:first-child {
+      p:last-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      &:hover {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    }
+    .checkAndLanguage:last-child {
+      p:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      &:hover {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+  .active {
+    display: block;
+  }
+  .dropdownElement:hover .languageElement {
+    display: block;
+  }
+}

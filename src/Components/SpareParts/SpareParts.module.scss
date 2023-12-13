@@ -1,0 +1,196 @@
+@import "../../Scss/measure";
+
+.section {
+  width: 100%;
+  padding: 10px;
+  background-color: #9bbec8;
+  .headerText {
+    text-align: center;
+    p {
+      font-size: 14px;
+      font-weight: bold;
+      @include responsive400 {
+        font-size: 16px;
+      }
+      @include responsive600 {
+        font-size: 18px;
+      }
+      @include responsive1024 {
+        font-size: 20px;
+      }
+      @include responsive1200 {
+        font-size: 22px;
+      }
+    }
+  }
+  .twoElement {
+    @include responsive800 {
+      display: flex;
+      gap: 10px;
+    }
+    .imageAndTextContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      .SparePartElement {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 50%;
+        background-color: #ddf2fd;
+        margin-left: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: transform 0.5s ease;
+        &:hover {
+          transform: scale(1.02);
+        }
+        @include responsive550 {
+          width: 250px;
+        }
+        @include responsive800 {
+          width: 50%;
+        }
+        .firstImage {
+          width: 100%;
+          padding: 20px 0;
+          @include responsive550 {
+            width: 250px;
+          }
+          @include responsive800 {
+            width: 100%;
+            padding: 20px 0;
+          }
+        }
+        .secondImage {
+          width: 100%;
+          padding: 20px 7px;
+          @include responsive400 {
+            padding: 20px 10px;
+          }
+          @include responsive550 {
+            width: 250px;
+            padding: 20px 14px;
+          }
+          @include responsive800 {
+            width: 100%;
+            padding: 7px 0;
+          }
+        }
+        .imageInBottomRight {
+          padding: 20px 3px;
+          @include responsive550 {
+            padding: 20px 5px;
+          }
+          @include responsive800 {
+            padding: 5px 0;
+          }
+        }
+        .imageInBottomLeft {
+          @include responsive800 {
+            padding: 10px 0;
+          }
+        }
+        .sparePartTexts {
+          border-top: 1px solid black;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          padding: 10px 5px;
+          background-color: #427d9d;
+          p {
+            color: #ddf2fd;
+            font-size: 10px;
+            @include responsive400 {
+              font-size: 12px;
+            }
+            @include responsive600 {
+              font-size: 14px;
+            }
+            @include responsive768 {
+              font-size: 16px;
+            }
+            @include responsive1024 {
+              font-size: 18px;
+            }
+          }
+          .buttonElement {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            .sparePartButton {
+              border-top-left-radius: 5px;
+              border-bottom-right-radius: 5px;
+              border: none;
+              font-size: 10px;
+              padding: 5px 7px;
+              background-color: #164863;
+              color: #ddf2fd;
+              transition: background-color 0.5s, color 0.5s;
+              &:hover {
+                background-color: #ddf2fd;
+                color: black;
+              }
+              &:active {
+                transform: scale(0.95);
+              }
+              @include responsive400 {
+                font-size: 12px;
+              }
+              @include responsive600 {
+                font-size: 14px;
+              }
+              @include responsive768 {
+                font-size: 16px;
+                padding: 10px 12px;
+                border-top-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .detailedSearchElement {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 10px;
+    width: 96%;
+    .Link {
+      color: black;
+      text-decoration: none;
+      transition: transform 0.5s ease;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.02);
+      }
+      p {
+        border: 1px solid#164863;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 5px 10px;
+        background-color: #164863;
+        color: #ddf2fd;
+      }
+    }
+    @include responsive400 {
+      font-size: 12px;
+      width: 97%;
+    }
+    @include responsive550 {
+      width: 500px;
+      margin: auto;
+    }
+    @include responsive600 {
+      font-size: 14px;
+    }
+    @include responsive800 {
+      width: 99%;
+    }
+    @include responsive1024 {
+      width: 99%;
+      font-size: 16px;
+    }
+  }
+}

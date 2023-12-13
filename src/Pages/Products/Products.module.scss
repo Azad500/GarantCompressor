@@ -1,0 +1,164 @@
+@import "../../Scss/measure";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ProductsSection {
+  background-color: #9bbec8;
+  @include responsive728 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  @include responsive768 {
+    grid-template-columns: 1fr 3fr;
+  }
+  .leftAsideMobile {
+    height: 100vh;
+    width: 100%;
+    background-color: #164863;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    z-index: 1;
+    transition: 800ms ease-in-out;
+    &.active {
+      right: 0;
+    }
+
+   
+    h2 {
+      margin-bottom: 50px;
+      color: #b2d5df;
+    }
+    .crossButton {
+      position: absolute;
+      right: 8px;
+      top: 10px;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: 10px 5px;
+     
+          text-decoration: none;
+          color: #9bbec8;
+          font-size: 1.4rem;
+        
+      }
+    }
+  }
+  .leftAsideDesktop {
+    background-color: #164863;
+    border: 1px solid #164863;
+    display: none;
+    margin: 10px 0 0 10px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 10px;
+    @include responsive768 {
+      display: flex;
+    }
+    h2 {
+      padding: 0 10px;
+      margin-bottom: 40px;
+      color: #9bbec8;
+      @include responsive1200 {
+        font-size: 2rem;
+      }
+    }
+    ul {
+      list-style: none;
+      width: 90%;
+      text-align: center;
+      padding-left: 0;
+
+      li {
+        padding: 20px;
+        text-decoration: none;
+        color: #9bbec8;
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        @include responsive768 {
+          font-size: 1.25rem;
+        }
+        @include responsive1200 {
+          font-size: 1.5rem;
+        }
+        &:hover {
+          background-color: darken(#ddf2fd, 40%);
+          transition: 300ms ease-in-out;
+          color: #164863;
+        }
+        &.selected {
+          background-color: darken(#ddf2fd, 20%);
+          color: #164863;
+        }
+      }
+    }
+  }
+  .cardsContainer {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+    @include responsive768 {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include responsive992 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cardItem {
+      img {
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+      }
+      h3 {
+        padding: 10px 0;
+        font-size: 1rem;
+        @include responsive450 {
+          font-size: 1.125rem;
+        }
+        @include responsive768 {
+          font-size: 1.25rem;
+        }
+        @include responsive1200 {
+          font-size: 1.375rem;
+        }
+      }
+      p {
+        line-height: 20px;
+        font-size: 0.875rem;
+        @include responsive450 {
+          font-size: 1rem;
+        }
+        @include responsive768 {
+          font-size: 1.125rem;
+          line-height: 25px;
+        }
+        @include responsive1200 {
+          font-size: 1.25rem;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+.leftAsideMobile::-webkit-scrollbar {
+  display: none;
+}

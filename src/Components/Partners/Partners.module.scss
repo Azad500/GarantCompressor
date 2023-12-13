@@ -1,0 +1,79 @@
+@import "../../Scss/measure";
+
+.section {
+  background-color: #164863;
+  padding: 10px 0;
+  @include responsive1024 {
+    padding: 20px 0;
+  }
+  .partnersText {
+    text-align: center;
+    font-weight: bold;
+    color: #ddf2fd;
+    font-size: 14px;
+    @include responsive600 {
+      font-size: 16px;
+    }
+    @include responsive768 {
+      font-size: 18px;
+    }
+    @include responsive1024 {
+      font-size: 20px;
+    }
+    @include responsive1200 {
+      font-size: 22px;
+    }
+  }
+  .slidePartnersLogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    background-color: #c9ecff;
+    &.paused {
+      .logoElement {
+        animation-play-state: paused;
+      }
+    }
+    @include responsive1024 {
+      padding: 10px 0;
+    }
+    &:hover {
+      overflow-x: auto;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .logoElement {
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      animation: upSliderShow 20s infinite linear;
+      position: relative;
+      gap: 15px;
+      @keyframes upSliderShow {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      .imageElement {
+        width: 100px;
+        cursor: pointer;
+        transition: 0.5s ease;
+        &:hover {
+          transform: scale(1.1);
+        }
+        @include responsive768 {
+          width: 150px;
+        }
+        @include responsive1200 {
+          width: 200px;
+        }
+      }
+    }
+  }
+}

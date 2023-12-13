@@ -1,0 +1,417 @@
+@import "../../Scss/measure";
+
+.carouselContainer {
+  .firstImage {
+    width: 100%;
+    background-color: #ddf2fd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    @include responsive400 {
+      height: 300px;
+    }
+    @include responsive450 {
+      height: 350px;
+    }
+    @include responsive500 {
+      height: 400px;
+    }
+    @include responsive550 {
+      height: 450px;
+    }
+    @include responsive600 {
+      height: 500px;
+    }
+    @include responsive650 {
+      height: 550px;
+    }
+    @include responsive700 {
+      height: 600px;
+    }
+    @include responsive750 {
+      height: 650px;
+    }
+    @include responsive800 {
+      height: 700px;
+    }
+
+    img {
+      width: 175px;
+      height: 175px;
+      @include responsive400 {
+        width: 290px;
+        height: 280px;
+      }
+      @include responsive450 {
+        width: 340px;
+        height: 330px;
+      }
+      @include responsive500 {
+        width: 360px;
+        height: 350px;
+      }
+      @include responsive550 {
+        width: 390px;
+        height: 380px;
+      }
+      @include responsive600 {
+        width: 420px;
+        height: 410px;
+      }
+      @include responsive650 {
+        width: 450px;
+        height: 440px;
+      }
+      @include responsive700 {
+        width: 480px;
+        height: 470px;
+      }
+      @include responsive750 {
+        width: 510px;
+        height: 500px;
+      }
+      @include responsive800 {
+        width: 540px;
+        height: 530px;
+      }
+      @include responsive850 {
+        width: 570px;
+        height: 560px;
+      }
+      @include responsive900 {
+        width: 600px;
+        height: 590px;
+      }
+      @include responsive950 {
+        width: 630px;
+        height: 620px;
+      }
+      @include responsive1000 {
+        width: 660px;
+        height: 650px;
+      }
+      @include responsive1050 {
+        width: 690px;
+        height: 680px;
+      }
+    }
+    .leftTexts {
+      width: 65px;
+      height: 200px;
+      font-size: 7px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-left: 1px;
+      p {
+        background-color: #164863;
+        border-radius: 10px;
+        padding: 5px;
+        color: #ddf2fd;
+      }
+      @include responsive400 {
+        height: 300px;
+      }
+      @include responsive450 {
+        height: 350px;
+      }
+      @include responsive500 {
+        height: 400px;
+        font-size: 8px;
+        width: 70px;
+      }
+      @include responsive550 {
+        height: 450px;
+        width: 80px;
+      }
+      @include responsive600 {
+        height: 500px;
+        width: 90px;
+        padding-left: 10px;
+      }
+      @include responsive650 {
+        height: 550px;
+        width: 100px;
+        font-size: 10px;
+      }
+      @include responsive700 {
+        height: 600px;
+        width: 110px;
+      }
+      @include responsive750 {
+        height: 650px;
+        width: 120px;
+        font-size: 14px;
+      }
+      @include responsive800 {
+        height: 700px;
+        width: 130px;
+      }
+      @include responsive850 {
+        width: 140px;
+      }
+      @include responsive900 {
+        width: 150px;
+      }
+      @include responsive950 {
+        width: 160px;
+        text-align: center;
+      }
+      @include responsive1000 {
+        width: 170px;
+      }
+      @include responsive1050 {
+        width: 180px;
+        font-size: 16px;
+        padding-left: 20px;
+      }
+      @include responsive1100 {
+        width: 205px;
+      }
+      @include responsive1150 {
+        width: 230px;
+      }
+      @include responsive1200 {
+        width: 255px;
+      }
+      @include responsive1250 {
+        width: 270px;
+      }
+      @include responsive1300 {
+        width: 290px;
+      }
+      @include responsive1350 {
+        width: 310px;
+      }
+      @include responsive1400 {
+        width: 315px;
+        font-size: 20px;
+      }
+      @include responsive1450 {
+        width: 325px;
+      }
+      @include responsive1500 {
+        width: 335px;
+      }
+      @include responsive1550 {
+        width: 345px;
+      }
+      @include responsive1600 {
+        width: 355px;
+      }
+    }
+    .rightTexts {
+      width: 65px;
+      height: 200px;
+      font-size: 7px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-left: 1px;
+      padding-right: 1px;
+      p {
+        background-color: #164863;
+        border-radius: 10px;
+        padding: 5px;
+        color: #ddf2fd;
+      }
+      @include responsive400 {
+        height: 300px;
+      }
+      @include responsive450 {
+        height: 350px;
+      }
+      @include responsive500 {
+        height: 400px;
+        font-size: 8px;
+        width: 70px;
+      }
+      @include responsive550 {
+        height: 450px;
+        width: 80px;
+      }
+      @include responsive600 {
+        height: 500px;
+        width: 90px;
+        padding-right: 10px;
+      }
+      @include responsive650 {
+        height: 550px;
+        width: 100px;
+        font-size: 10px;
+      }
+      @include responsive700 {
+        height: 600px;
+        width: 110px;
+      }
+      @include responsive750 {
+        height: 650px;
+        width: 120px;
+        font-size: 14px;
+      }
+      @include responsive800 {
+        height: 700px;
+        width: 130px;
+      }
+      @include responsive850 {
+        width: 140px;
+      }
+      @include responsive900 {
+        width: 150px;
+      }
+      @include responsive950 {
+        width: 160px;
+        text-align: center;
+      }
+      @include responsive1000 {
+        width: 170px;
+      }
+      @include responsive1050 {
+        width: 180px;
+        font-size: 16px;
+        padding-right: 20px;
+      }
+      @include responsive1100 {
+        width: 205px;
+      }
+      @include responsive1150 {
+        width: 230px;
+      }
+      @include responsive1200 {
+        width: 255px;
+      }
+      @include responsive1250 {
+        width: 270px;
+      }
+      @include responsive1300 {
+        width: 290px;
+      }
+      @include responsive1350 {
+        width: 310px;
+      }
+      @include responsive1400 {
+        width: 315px;
+        font-size: 20px;
+      }
+      @include responsive1450 {
+        width: 325px;
+      }
+      @include responsive1500 {
+        width: 335px;
+      }
+      @include responsive1550 {
+        width: 345px;
+      }
+      @include responsive1600 {
+        width: 355px;
+      }
+    }
+  }
+  .secondImage {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 250px;
+      @include responsive400 {
+        height: 300px;
+      }
+      @include responsive450 {
+        height: 350px;
+      }
+      @include responsive500 {
+        height: 400px;
+      }
+      @include responsive550 {
+        height: 450px;
+      }
+      @include responsive600 {
+        height: 500px;
+      }
+      @include responsive650 {
+        height: 550px;
+      }
+      @include responsive700 {
+        height: 600px;
+      }
+      @include responsive750 {
+        height: 650px;
+      }
+      @include responsive800 {
+        height: 700px;
+      }
+    }
+  }
+  .thirdImage {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 250px;
+      @include responsive400 {
+        height: 300px;
+      }
+      @include responsive450 {
+        height: 350px;
+      }
+      @include responsive500 {
+        height: 400px;
+      }
+      @include responsive550 {
+        height: 450px;
+      }
+      @include responsive600 {
+        height: 500px;
+      }
+      @include responsive650 {
+        height: 550px;
+      }
+      @include responsive700 {
+        height: 600px;
+      }
+      @include responsive750 {
+        height: 650px;
+      }
+      @include responsive800 {
+        height: 700px;
+      }
+    }
+    p {
+      font-size: 5.5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      top: 40px;
+      font-weight: bold;
+      text-align: center;
+      position: absolute;
+      z-index: 4;
+      color: rgb(0, 0, 0);
+      border: 1px solid black;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #ddf2fd;
+      padding: 5px 10px;
+      margin-left: 10px;
+      @include responsive400 {
+        font-size: 7px;
+      }
+      @include responsive500 {
+        font-size: 8px;
+      }
+      @include responsive600 {
+        font-size: 10px;
+        top: 50px;
+      }
+      @include responsive700 {
+        font-size: 14px;
+      }
+      @include responsive1000 {
+        font-size: 16px;
+      }
+      @include responsive1200 {
+        font-size: 18px;
+      }
+      @include responsive1440 {
+        font-size: 22px;
+      }
+    }
+  }
+}

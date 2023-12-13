@@ -1,0 +1,91 @@
+.navbarContainer {
+  display: flex;
+  justify-content: end;
+  .hamburger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    z-index: 301;
+    .bar,
+    &::after,
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 5px;
+      background-color: black;
+      margin: 6px 0px;
+      transition: 0.4s;
+    }
+
+    &.is_active {
+      &::before {
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+
+      &::after {
+        transform: rotate(45deg) translate(-9px, -6px);
+      }
+
+      .bar {
+        opacity: 0;
+      }
+    }
+  }
+  .mobile_nav {
+    transition: 0.4s;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    z-index: 300;
+    background-color: #427d9d;
+    &.is_active {
+      left: 0;
+    }
+    .wrapper {
+      text-align: center;
+      margin-top: 200px;
+      i {
+        color: #ddf2fd;
+        padding-right: 10px;
+        font-size: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #ddf2fd;
+      }
+      .whatsappContainer {
+        margin: 40px 0;
+      }
+      .emailContainer {
+        margin-top: 40px;
+      }
+    }
+    .sosialNetworkElement {
+      margin-top: 40px;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: #ddf2fd;
+        i {
+          font-size: 25px;
+        }
+      }
+      a:nth-child(2) {
+        padding: 0 20px;
+      }
+      a:nth-child(4) {
+        padding-left: 20px;
+      }
+    }
+  }
+}
