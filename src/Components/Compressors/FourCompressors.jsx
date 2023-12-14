@@ -84,14 +84,14 @@ export default function FourCompressors({ productsRef, t }) {
           </div>
         </div>
       </section>
-      <p className={styles.detailedSearchText}>
+      <div className={styles.detailedSearchElement}>
         <Link
           to={{ pathname: "/spareParts", state: { fromNavbar: true } }}
           className={styles.Link}
         >
-          <p>{t("DetailedSearch")}</p>
+          <p className={styles.detailedSearchText}>{t("DetailedSearch")}</p>
         </Link>
-      </p>
+      </div>
     </div>
   );
 }

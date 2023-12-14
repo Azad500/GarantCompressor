@@ -12,14 +12,13 @@ export default function SpareParts({ sparePartsRef, t }) {
         <div className={styles.imageAndTextContainer}>
           {/* ----------------------firstSparePart-------------------- */}
           <div className={styles.SparePartElement}>
-            <img
-              className={styles.firstImage}
-              src={
-                AllInformations.AzerbaijanLanguage.SparePart.SparePartFirst
-                  .SparePart1
-              }
-              alt="First Spare Part Image"
-            />
+            <div className={`${styles.imgElement} ${styles.imgElement1}`}>
+              <img
+                className={styles.firstImage}
+                src={t("SparePart.SparePartFirst.SparePart1")}
+                alt="First Spare Part Image"
+              />
+            </div>
             <div className={styles.sparePartTexts}>
               <p>{t("SparePart.SparePartFirst.SparePartText1")}</p>
               <p>{t("SparePart.SparePartFirst.SparePartText2")}</p>
@@ -32,14 +31,13 @@ export default function SpareParts({ sparePartsRef, t }) {
           </div>
           {/* ----------------------secondSparePart-------------------- */}
           <div className={styles.SparePartElement}>
-            <img
-              className={styles.secondImage}
-              src={
-                AllInformations.AzerbaijanLanguage.SparePart.SparePartSecond
-                  .SparePart2
-              }
-              alt="First Spare Part Image"
-            />
+            <div className={`${styles.imgElement} ${styles.imgElement2}`}>
+              <img
+                className={styles.secondImage}
+                src={t("SparePart.SparePartSecond.SparePart2")}
+                alt="First Spare Part Image"
+              />
+            </div>
             <div className={styles.sparePartTexts}>
               <p>{t("SparePart.SparePartSecond.SparePartText1")}</p>
               <p>{t("SparePart.SparePartSecond.SparePartText2")}</p>
@@ -55,14 +53,16 @@ export default function SpareParts({ sparePartsRef, t }) {
         <div className={styles.imageAndTextContainer}>
           {/* ----------------------firstSparePart-------------------- */}
           <div className={styles.SparePartElement}>
-            <img
-              className={`${styles.firstImage} ${styles.imageInBottomLeft}`}
-              src={
-                AllInformations.AzerbaijanLanguage.SparePart.SparePartThird
-                  .SparePart3
-              }
-              alt="First Spare Part Image"
-            />
+            <div className={`${styles.imgElement} ${styles.imgElement3}`}>
+              <img
+                className={styles.thirdImage}
+                src={
+                  AllInformations.AzerbaijanLanguage.SparePart.SparePartThird
+                    .SparePart3
+                }
+                alt="First Spare Part Image"
+              />
+            </div>
             <div className={styles.sparePartTexts}>
               <p>{t("SparePart.SparePartThird.SparePartText1")}</p>
               <p>{t("SparePart.SparePartThird.SparePartText2")}</p>
@@ -75,14 +75,16 @@ export default function SpareParts({ sparePartsRef, t }) {
           </div>
           {/* ----------------------secondSparePart-------------------- */}
           <div className={styles.SparePartElement}>
-            <img
-              className={`${styles.secondImage} ${styles.imageInBottomRight}`}
-              src={
-                AllInformations.AzerbaijanLanguage.SparePart.SparePartFourth
-                  .SparePart4
-              }
-              alt="First Spare Part Image"
-            />
+            <div className={`${styles.imgElement} ${styles.imgElement4}`}>
+              <img
+                className={styles.fourthImage}
+                src={
+                  AllInformations.AzerbaijanLanguage.SparePart.SparePartFourth
+                    .SparePart4
+                }
+                alt="First Spare Part Image"
+              />
+            </div>
             <div className={styles.sparePartTexts}>
               <p>{t("SparePart.SparePartFourth.SparePartText1")}</p>
               <p>{t("SparePart.SparePartFourth.SparePartText2")}</p>

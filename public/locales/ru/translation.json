@@ -213,7 +213,7 @@
   "CompanyProfile": {
     "AzCompanyProfile": "Профиль компании",
     "AzCompanyName": "ООО «ГАРАНТ КОМПРЕССОР»",
-    "AzAboutCompany": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus eum dicta voluptas iste non in at. Quod officia nostrum suscipit ipsa, enim magnam veritatis corrupti, ut repudiandae hic corporis rem distinctio quibusdam cum iste eaque ad accusantium non voluptates possimus dolorem porro dicta. Beatae quibusdam placeat veniam optio quaerat?",
+    "AzAboutCompany": "Мы как Гарант Компрессор работаем с 2011 года. Независимо от модели и бренда, мы занимаемся обслуживанием и продажей запасных частей для компрессоров таких известных компаний, как Atlascopro, Ekomak, Dalga Kiran. Работа охватывает все области отрасли. Мы даем гарантию на работу и каждую продаваемую запчасть. Каждый клиент, с которым мы работаем, доволен нами. Потому что наша работа — наше имя!",
     "AzDetailedSearchTexts": "Узнать больше >"
   },
   "SparePart": {
@@ -222,23 +222,23 @@
     },
     "SparePartFirst": {
       "SparePart1": "src/Images/SpareParts/SparePart1.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "MANN FILTER",
+      "SparePartText2": "Масляный фильтр (W 962/14)"
     },
     "SparePartSecond": {
       "SparePart2": "src/Images/SpareParts/SparePart2.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "MANN FILTER",
+      "SparePartText2": "Воздушно-масляный сепаратор"
     },
     "SparePartThird": {
       "SparePart3": "src/Images/SpareParts/SparePart3.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "ECOMAK FILTER",
+      "SparePartText2": "Линейный фильтр"
     },
     "SparePartFourth": {
       "SparePart4": "src/Images/SpareParts/SparePart4.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "SAI AIRTECH",
+      "SparePartText2": "Маслоотделитель"
     }
   }
 }

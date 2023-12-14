@@ -213,7 +213,7 @@
   "CompanyProfile": {
     "AzCompanyProfile": "Haqqımızda",
     "AzCompanyName": "GARANT COMPRESSOR MMC",
-    "AzAboutCompany": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus eum dicta voluptas iste non in at. Quod officia nostrum suscipit ipsa, enim magnam veritatis corrupti, ut repudiandae hic corporis rem distinctio quibusdam cum iste eaque ad accusantium non voluptates possimus dolorem porro dicta. Beatae quibusdam placeat veniam optio quaerat?",
+    "AzAboutCompany": "Biz Garant Kompressor olaraq 2011-ci ildən fəaliyyət göstəririk. Modelindən və markasından asılı olmayaraq Atlascopro, Ekomak, Dalga kıran kimi tanınmış firmaların kompressorlarının servisi və ehtiyyat hissələrinin satışı ilə məşğul oluruq. Bizim işlərimiz sənayenin bütün sahələrini əhatə edir. Gördüyümüz hər işə və satdığımız hər bir ehtiyyat hissələrinə zəmanət veririk. Bizimlə işləyən hər bir müştərimiz bizdən məmnundur. Çünki Bizim işimiz Bizim adımızdır!",
     "AzDetailedSearchTexts": "Ətraflı Bax >"
   },
   "SparePart": {
@@ -222,23 +222,23 @@
     },
     "SparePartFirst": {
       "SparePart1": "src/Images/SpareParts/SparePart1.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "MANN FİLTER",
+      "SparePartText2": "Yağ filtri (W 962/14)"
     },
     "SparePartSecond": {
       "SparePart2": "src/Images/SpareParts/SparePart2.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "MANN FİLTERİ",
+      "SparePartText2": "Hava-yağ separatoru"
     },
     "SparePartThird": {
       "SparePart3": "src/Images/SpareParts/SparePart3.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "EKOMAK FİLTERİ",
+      "SparePartText2": "Xətti Filtri"
     },
     "SparePartFourth": {
       "SparePart4": "src/Images/SpareParts/SparePart4.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "SAİ AİRTECH",
+      "SparePartText2": "Yağ separatoru"
     }
   }
 }

@@ -51,44 +51,51 @@
         @include responsive800 {
           width: 50%;
         }
-        .firstImage {
-          width: 100%;
-          padding: 20px 0;
-          @include responsive550 {
-            width: 250px;
-          }
-          @include responsive800 {
-            width: 100%;
-            padding: 20px 0;
-          }
-        }
-        .secondImage {
-          width: 100%;
-          padding: 20px 7px;
-          @include responsive400 {
-            padding: 20px 10px;
+        .imgElement {
+          width: 100px;
+          margin: auto;
+          @include responsive450 {
+            width: 150px;
           }
           @include responsive550 {
-            width: 250px;
-            padding: 20px 14px;
+            width: 180px;
           }
           @include responsive800 {
-            width: 100%;
-            padding: 7px 0;
+            width: 60%;
+          }
+          img {
+            width: 120px;
+            height: 200px;
+            @include responsive450 {
+              width: 150px;
+            }
+            @include responsive550 {
+              width: 180px;
+            }
+            @include responsive800 {
+              width: 100%;
+              height: unset;
+            }
+          }
+          .thirdImage {
+            @include responsive800 {
+              height: unset;
+            }
           }
         }
-        .imageInBottomRight {
-          padding: 20px 3px;
-          @include responsive550 {
-            padding: 20px 5px;
-          }
+        .imgElement2 {
           @include responsive800 {
-            padding: 5px 0;
+            width: 80%;
           }
         }
-        .imageInBottomLeft {
+        .imgElement3 {
           @include responsive800 {
-            padding: 10px 0;
+            width: 47%;
+          }
+        }
+        .imgElement4 {
+          @include responsive800 {
+            width: 115%;
           }
         }
         .sparePartTexts {
@@ -97,9 +104,12 @@
           border-bottom-right-radius: 10px;
           padding: 10px 5px;
           background-color: #427d9d;
+          p:first-child {
+            font-weight: bold;
+          }
           p {
             color: #ddf2fd;
-            font-size: 10px;
+            font-size: 9px;
             @include responsive400 {
               font-size: 12px;
             }

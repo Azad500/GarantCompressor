@@ -17,13 +17,13 @@
     align-items: center;
     gap: 5px;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 10px;
     a {
       text-decoration: none;
       color: black;
     }
     @include responsive1024 {
-      font-size: 15px;
+      font-size: 13px;
     }
   }
   .numbersAndSosialNetworksElements {
@@ -47,9 +47,9 @@
         align-items: center;
         gap: 7px;
         cursor: pointer;
-        font-size: 13px;
+        font-size: 10px;
         @include responsive1024 {
-          font-size: 15px;
+          font-size: 13px;
         }
         i {
           font-size: 19px;

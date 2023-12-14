@@ -3,20 +3,22 @@
   background-color: #164863;
   width: 100%;
   padding: 10px 0;
-  .detailedSearchText {
+  .detailedSearchElement {
     display: flex;
     justify-content: end;
+    color: black;
     font-size: 10px;
     width: 300px;
     margin: auto;
     .Link {
+      color: black;
       text-decoration: none;
       transition: transform 0.5s ease;
       cursor: pointer;
       &:hover {
         transform: scale(1.02);
       }
-      p {
+      .detailedSearchText {
         border: 1px solid #427d9d;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -26,15 +28,16 @@
       }
     }
     @include responsive400 {
-      width: 375px;
       font-size: 12px;
+      width: 380px;
     }
     @include responsive600 {
       width: 97%;
       font-size: 14px;
+      margin: auto;
     }
     @include responsive1024 {
-      width: 97%;
+      width: 98.5%;
       font-size: 16px;
     }
   }

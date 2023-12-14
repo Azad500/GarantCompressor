@@ -213,7 +213,7 @@
   "CompanyProfile": {
     "AzCompanyProfile": "About",
     "AzCompanyName": "GARANT COMPRESSOR LLC",
-    "AzAboutCompany": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus eum dicta voluptas iste non in at. Quod officia nostrum suscipit ipsa, enim magnam veritatis corrupti, ut repudiandae hic corporis rem distinctio quibusdam cum iste eaque ad accusantium non voluptates possimus dolorem porro dicta. Beatae quibusdam placeat veniam optio quaerat?",
+    "AzAboutCompany": "We as Garant Kompressor have been operating since 2011. Regardless of the model and brand, we are engaged in the service and sale of spare parts for compressors of well-known companies such as Atlascopro, Ekomak, Dalga Kiran. Our work covers all areas of the industry. we guarantee the work and every spare part we sell. Every customer we work with is happy with us. Because Our Work Is Our Name!",
     "AzDetailedSearchTexts": "See more >"
   },
   "SparePart": {
@@ -222,23 +222,23 @@
     },
     "SparePartFirst": {
       "SparePart1": "src/Images/SpareParts/SparePart1.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "MANN FILTER",
+      "SparePartText2": "Oil filter (W 962/14)"
     },
     "SparePartSecond": {
       "SparePart2": "src/Images/SpareParts/SparePart2.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "MANN FILTER",
+      "SparePartText2": "Air-Oil Separator"
     },
     "SparePartThird": {
       "SparePart3": "src/Images/SpareParts/SparePart3.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "ECOMAK FILTER",
+      "SparePartText2": "Line Filter"
     },
     "SparePartFourth": {
       "SparePart4": "src/Images/SpareParts/SparePart4.png",
-      "SparePartText1": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "SparePartText2": "Lorem ipsum dolor sit amet."
+      "SparePartText1": "SAI AIRTECH",
+      "SparePartText2": "Oil separator"
     }
   }
 }
