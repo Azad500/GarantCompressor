@@ -1,5 +1,3 @@
-import HamburgerIcon from "../src/Images/Navbar/HamburgerIcon.svg.png";
-import XIcon from "../src/Images/Navbar/Xicon.svg";
 import Compressors from "../src/Images/Navbar/EkoMakCompressors.png";
 import DeliveryInTheWorld from "../src/Images/Navbar/DeliveryInTheWorld.jpeg";
 import Compressor1 from "../src/Images/Compressors/kompressor1.png";
@@ -23,8 +21,6 @@ import HighPressure from "../src/Images/Products/High_Pressure_Screw_Air_Compres
 const AllInformations = {
   Navbar: {
     CompanyName: "GARANT COMPRESSOR",
-    HamburgerBar: HamburgerIcon,
-    Xicon: XIcon,
     WpPhone: "(+994) 50 228 28 49",
     WpPhoneLink: "https://wa.me/+994502282849",
     CallPhone: "(+994) 50 858 10 55",
