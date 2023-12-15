@@ -10,6 +10,24 @@ import FullTimeService from "./Images/AboutUs/24-7.png";
 import Lowest from "./Images/AboutUs/Lowest.png";
 import Reliability from "./Images/AboutUs/Reliability.png";
 import Satisfaction from "./Images/AboutUs/Satisfaction.png";
+import FirstCompressor from "./Images/Compressors/kompressor1.png";
+import SecondCompressor from "./Images/Compressors/kompressor2.png";
+import ThirdCompressor from "./Images/Compressors/kompressor3.png";
+import FourthCompressor from "./Images/Compressors/kompressor4.png";
+import SparePart1 from "./Images/SpareParts/SparePart1.png";
+import SparePart2 from "./Images/SpareParts/SparePart2.png";
+import SparePart3 from "./Images/SpareParts/SparePart3.png";
+import SparePart4 from "./Images/SpareParts/SparePart4.png";
+import AzLogo from "./Images/Navbar/AzCompanyLogo.png";
+import EnLogo from "./Images/Navbar/EnCompanyLogo.png";
+import RuLogo from "./Images/Navbar/RuCompanyLogo.png";
+import ProductsImage1 from "./Images/Products/AirCompressor.jpg";
+import ProductsImage2 from "./Images/Products/Compressors.png";
+import ProductsImage3 from "./Images/Products/DieselAirCompressor.jpg";
+import ProductsImage4 from "./Images/Products/DryAirCompressor.jpg";
+import ProductsImage5 from "./Images/Products/EnergyAirCompressor.jpg";
+import ProductsImage6 from "./Images/Products/ScrewAirCompressor.jpg";
+import ProductsImage7 from "./Images/Products/ScrewCompressor.jpg";
 
 const AllInformations = {
   Navbar: {
@@ -30,6 +48,9 @@ const AllInformations = {
   SameParts: {
     EkoMakCompressors: Compressors,
     Delivery: DeliveryInTheWorld,
+    AzLogo: AzLogo,
+    EnLogo: EnLogo,
+    RuLogo: RuLogo,
   },
   PartnersLogo: {
     FiloLogoImage: FiloLogo,
@@ -37,9 +58,32 @@ const AllInformations = {
     AydinTrafoLogoImage: AydinTrafoLogo,
     DalgaKiranLogoImage: DalgaKiranLogo,
   },
+  FourCompressors: {
+    FirstCompressorImage: FirstCompressor,
+    SecondCompressorImage: SecondCompressor,
+    ThirdCompressorImage: ThirdCompressor,
+    FourthCompressorImage: FourthCompressor,
+  },
+  FourSpareParts: {
+    SparePart1: SparePart1,
+    SparePart2: SparePart2,
+    SparePart3: SparePart3,
+    SparePart4: SparePart4,
+  },
   Products: {
     CompressorInProduct: CompressorInProduct,
   },
+  ProductsImages: [
+    {
+      ProductsImage1: ProductsImage1,
+      ProductsImage2: ProductsImage2,
+      ProductsImage3: ProductsImage3,
+      ProductsImage4: ProductsImage4,
+      ProductsImage5: ProductsImage5,
+      ProductsImage6: ProductsImage6,
+      ProductsImage7: ProductsImage7,
+    },
+  ],
   SpareParts: {
     SparePartsImage: SparePartsImage,
   },

@@ -12,7 +12,7 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.firstImageInUpStep}>
             <img
               className={styles.firstImage}
-              src={t("CompressorsAndTexts.FirstCompressor.Img")}
+              src={AllInformations.FourCompressors.FirstCompressorImage}
               alt="First Compressor"
             />
             <div className={styles.compressorsTexts}>
@@ -27,7 +27,7 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.secondImageInUpStep}>
             <img
               className={styles.secondImage}
-              src={t("CompressorsAndTexts.SecondCompressor.Img")}
+              src={AllInformations.FourCompressors.SecondCompressorImage}
               alt="Second Compressor"
             />
             <div className={styles.compressorsTexts}>
@@ -44,7 +44,7 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.firstImageInDownStep}>
             <img
               className={styles.thirdImage}
-              src={t("CompressorsAndTexts.ThirdCompressor.Img")}
+              src={AllInformations.FourCompressors.ThirdCompressorImage}
               alt="Third Compressor"
             />
             <div className={styles.compressorsTexts}>
@@ -59,7 +59,7 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.secondImageInDownStep}>
             <img
               className={styles.fourthImage}
-              src={t("CompressorsAndTexts.FourthCompressor.Img")}
+              src={AllInformations.FourCompressors.FourthCompressorImage}
               alt="Fourth Compressor"
             />
             <div className={styles.compressorsTexts}>

@@ -2,7 +2,7 @@ import styles from "./NavbarInDown.module.scss";
 import AllInformations from "../../informations";
 import DropDownLanguage from "./DropDownMenu";
 import HamburgerBar from "./HamburgerBar";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function NavbarInDown({
   handleClick,
@@ -11,23 +11,12 @@ export default function NavbarInDown({
   t,
 }) {
   const location = useLocation();
-  const navigate = useNavigate();
-  // const handleChangeButtonClick = () => {
-  //   if (location.pathname === "/spareParts") {
-  //     navigate("/products");
-  //   } else {
-  //     navigate("/spareParts");
-  //   }
-  // };
-  // const handleChangeButtonClick = () => {
-  //   const newPath =
-  //     location.pathname === "/products" ? "/spareParts" : "/products";
-  //   navigate(newPath);
-  // };
   return (
     <section className={styles.section}>
       <div className={styles.logoContainer}>
-        <img src={t("Logo")} alt="Company Logo" />
+        <img src={AllInformations.SameParts.AzLogo} alt="Az Company Logo" />
+        {/* <img src={AllInformations.SameParts.EnLogo} alt="En Company Logo" /> */}
+        {/* <img src={AllInformations.SameParts.RuLogo} alt="Ru Company Logo" /> */}
         <h1>{AllInformations.Navbar.CompanyName}</h1>
       </div>
       {location.pathname !== "/" && (
@@ -90,9 +79,6 @@ export default function NavbarInDown({
             </a>
           </li>
         )}
-        {/* <li>
-          <a onClick={() => handleClick("companyProfileRef")}>{t("AboutUs")}</a>
-        </li> */}
         <li>
           <a onClick={() => handleClick("footerRef")}>{t("ContactWithUs")}</a>
         </li>

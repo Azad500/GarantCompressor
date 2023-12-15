@@ -1,5 +1,6 @@
 import styles from "./SpareParts.module.scss";
 import { Link } from "react-router-dom";
+import AllInformations from "../../informations";
 export default function SpareParts({ sparePartsRef, t }) {
   return (
     <section ref={sparePartsRef} className={styles.section}>
@@ -14,7 +15,7 @@ export default function SpareParts({ sparePartsRef, t }) {
             <div className={`${styles.imgElement} ${styles.imgElement1}`}>
               <img
                 className={styles.firstImage}
-                src={t("SparePart.SparePartFirst.SparePart1")}
+                src={AllInformations.FourSpareParts.SparePart1}
                 alt="First Spare Part Image"
               />
             </div>
@@ -33,7 +34,7 @@ export default function SpareParts({ sparePartsRef, t }) {
             <div className={`${styles.imgElement} ${styles.imgElement2}`}>
               <img
                 className={styles.secondImage}
-                src={t("SparePart.SparePartSecond.SparePart2")}
+                src={AllInformations.FourSpareParts.SparePart2}
                 alt="Second Spare Part Image"
               />
             </div>
@@ -55,7 +56,7 @@ export default function SpareParts({ sparePartsRef, t }) {
             <div className={`${styles.imgElement} ${styles.imgElement3}`}>
               <img
                 className={styles.thirdImage}
-                src={t("SparePart.SparePartThird.SparePart3")}
+                src={AllInformations.FourSpareParts.SparePart3}
                 alt="Third Spare Part Image"
               />
             </div>
@@ -74,7 +75,7 @@ export default function SpareParts({ sparePartsRef, t }) {
             <div className={`${styles.imgElement} ${styles.imgElement4}`}>
               <img
                 className={styles.fourthImage}
-                src={t("SparePart.SparePartFourth.SparePart4")}
+                src={AllInformations.FourSpareParts.SparePart4}
                 alt="Fourth Spare Part Image"
               />
             </div>

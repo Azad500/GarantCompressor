@@ -2,7 +2,6 @@
   "MakeSite": "Saytı Hazırladı ",
   "FirstDeveloperName": "Azad Mirzəzadə : (+994)70 842 40 43",
   "SecondDeveloperName": "Səid İsaoğlu : (+994)50 367 98 99",
-  "Logo": "<img src=../../../src/images/Navbar/AzCompanyLogo.png>",
   "Home": "Ana Səhifə",
   "Products": "Məhsullarımız",
   "Partners": "Partnyorlarımız",
@@ -272,7 +271,6 @@
   },
   "CompressorsAndTexts": {
     "FirstCompressor": {
-      "Img": "./src/Images/Compressors/kompressor1.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -280,7 +278,6 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "SecondCompressor": {
-      "Img": "./src/Images/Compressors/kompressor2.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -288,7 +285,6 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "ThirdCompressor": {
-      "Img": "./src/Images/Compressors/kompressor3.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -296,7 +292,6 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "FourthCompressor": {
-      "Img": "./src/Images/Compressors/kompressor4.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -315,22 +310,18 @@
       "AzSparePartText": "Ehtiyat Hissələri"
     },
     "SparePartFirst": {
-      "SparePart1": "./src/Images/SpareParts/SparePart1.png",
       "SparePartText1": "MANN FİLTER",
       "SparePartText2": "Yağ filtri (W 962/14)"
     },
     "SparePartSecond": {
-      "SparePart2": "./src/Images/SpareParts/SparePart2.png",
       "SparePartText1": "MANN FİLTER",
       "SparePartText2": "Hava-yağ separatoru"
     },
     "SparePartThird": {
-      "SparePart3": "./src/Images/SpareParts/SparePart3.png",
       "SparePartText1": "EKOMAK FİLTER",
       "SparePartText2": "Xətti Filtri"
     },
     "SparePartFourth": {
-      "SparePart4": "./src/Images/SpareParts/SparePart4.png",
       "SparePartText1": "SAİ AİRTECH",
       "SparePartText2": "Yağ separatoru"
     }

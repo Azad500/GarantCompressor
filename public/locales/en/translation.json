@@ -2,7 +2,6 @@
   "MakeSite": "Prepared the site",
   "FirstDeveloperName": "Azad Mirzazada : (+994)70 842 40 43",
   "SecondDeveloperName": "Said Isaoglu : (+994)50 367 98 99",
-  "Logo": "./src/images/Navbar/EnCompanyLogo.png",
   "Home": "Home",
   "Products": "Products",
   "Partners": "Partners",
@@ -281,7 +280,6 @@
   },
   "CompressorsAndTexts": {
     "FirstCompressor": {
-      "Img": "./src/Images/Compressors/kompressor1.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -289,7 +287,6 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "SecondCompressor": {
-      "Img": "./src/Images/Compressors/kompressor2.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -297,7 +294,6 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "ThirdCompressor": {
-      "Img": "./src/Images/Compressors/kompressor3.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -305,7 +301,6 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "FourthCompressor": {
-      "Img": "./src/Images/Compressors/kompressor4.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -324,22 +319,18 @@
       "AzSparePartText": "Ehtiyat Hissələri"
     },
     "SparePartFirst": {
-      "SparePart1": "./src/Images/SpareParts/SparePart1.png",
       "SparePartText1": "MANN FILTER",
       "SparePartText2": "Oil filter (W 962/14)"
     },
     "SparePartSecond": {
-      "SparePart2": "./src/Images/SpareParts/SparePart2.png",
       "SparePartText1": "MANN FILTER",
       "SparePartText2": "Air-Oil Separator"
     },
     "SparePartThird": {
-      "SparePart3": "./src/Images/SpareParts/SparePart3.png",
       "SparePartText1": "ECOMAK FILTER",
       "SparePartText2": "Line Filter"
     },
     "SparePartFourth": {
-      "SparePart4": "./src/Images/SpareParts/SparePart4.png",
       "SparePartText1": "SAI AIRTECH",
       "SparePartText2": "Oil separator"
     }
