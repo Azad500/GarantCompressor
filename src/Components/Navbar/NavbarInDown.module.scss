@@ -39,6 +39,16 @@
       }
     }
   }
+  .homeElement {
+    width: 25%;
+    @include responsive768 {
+      display: none;
+    }
+    i {
+      color: #ddf2fd;
+      font-size: 30px;
+    }
+  }
   .hamburgerContainer {
     padding-right: 10px;
     display: flex;

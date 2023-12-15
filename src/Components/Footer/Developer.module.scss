@@ -12,7 +12,7 @@
       padding-right: 20px;
     }
     p {
-      font-size: 12px;
+      font-size: 10px;
       color: #ddf2fd;
       @include responsive500 {
         font-size: 14px;
@@ -23,7 +23,7 @@
       padding: 10px 0;
       p {
         cursor: pointer;
-        font-size: 12px;
+        font-size: 10px;
         color: #ddf2fd;
         @include responsive500 {
           font-size: 14px;

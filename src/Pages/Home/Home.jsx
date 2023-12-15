@@ -17,6 +17,7 @@ export default function Home({
       <FourCompressors productsRef={productsRef} t={t} />
       <SpareParts sparePartsRef={sparePartsRef} t={t} />
       <Partners partnersRef={partnersRef} t={t} />
+      <CompanyProfile companyProfileRef={companyProfileRef} t={t} />
     </div>
   );
 }

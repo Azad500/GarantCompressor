@@ -30,6 +30,13 @@ export default function NavbarInDown({
         <img src={t("Logo")} alt="Company Logo" />
         <h1>{AllInformations.Navbar.CompanyName}</h1>
       </div>
+      {location.pathname !== "/" && (
+        <div className={styles.homeElement}>
+          <Link to="/">
+            <i className="fa-solid fa-house"></i>
+          </Link>
+        </div>
+      )}
       <div className={styles.hamburgerContainer}>
         <DropDownLanguage />
         <HamburgerBar

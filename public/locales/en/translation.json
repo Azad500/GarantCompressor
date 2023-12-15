@@ -2,7 +2,7 @@
   "MakeSite": "Prepared the site",
   "FirstDeveloperName": "Azad Mirzazada : (+994)70 842 40 43",
   "SecondDeveloperName": "Said Isaoglu : (+994)50 367 98 99",
-  "Logo": "src/images/Navbar/EnCompanyLogo.png",
+  "Logo": "./src/images/Navbar/EnCompanyLogo.png",
   "Home": "Home",
   "Products": "Products",
   "Partners": "Partners",
@@ -17,60 +17,163 @@
   "TheWorldDeliveryText": "We Carry Out Delivery of Any Kind of Compressors from Different Countries of the World.",
   "DetailedSearch": "More >",
   "DetailedSearchText": "See more >",
+  "AboutProducts": "In addition to the compressors you see above, we buy and deliver any type of compressors directly from the manufacturer. If you do not have the compressor you want in our Products section, you can contact us and get the compressor you want in a short time!",
+  "AboutInSpareParts": "In addition to the spare parts you see above, we buy and deliver any type of spare parts directly from the manufacturer. If you don't have the spare part you want in the spare parts section, you can contact us and get the spare part you want in a short time!",
   "SparePartPage": {
     "Spares": [
       {
-        "category": "Filter",
-        "Img": "src/images/SpareParts/SparePart1.png",
-        "title": "Hava-yağ Separator filtr ",
-        "thePrice": "200 Azn",
-        "description": "Yağ buxarlarını sıxılmış havadan süzmək üçün nəzərdə tutulub. Maksimum iş təzyiqi 20 bardır."
+        "category": "Air Filters",
+        "Img": "./src/images/SpareParts/AirFilter/AirFilter1.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
       },
       {
-        "category": "Lorem 2",
-        "Img": "src/images/SpareParts/SparePart2.png",
-        "title": "Hava-yağ Separator filtr ",
-        "thePrice": "200 Azn",
-        "description": "Yağ buxarlarını sıxılmış havadan süzmək üçün nəzərdə tutulub. Maksimum iş təzyiqi 20 bardır."
+        "category": "Air Filters",
+        "Img": "./src/images/SpareParts/AirFilter/AirFilter2.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
       },
       {
-        "category": "Lorem 3",
-        "Img": "src/images/SpareParts/SparePart3.png",
-        "title": "Hava-yağ Separator filtr ",
-        "thePrice": "200 Azn",
-        "description": "Yağ buxarlarını sıxılmış havadan süzmək üçün nəzərdə tutulub. Maksimum iş təzyiqi 20 bardır."
+        "category": "Air Filters",
+        "Img": "./src/images/SpareParts/AirFilter/AirFilter3.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
       },
       {
-        "category": "Lorem 4",
-        "Img": "src/images/SpareParts/SparePart4.png",
-        "title": "Hava-yağ Separator filtr ",
-        "thePrice": "200 Azn",
-        "description": "Yağ buxarlarını sıxılmış havadan süzmək üçün nəzərdə tutulub. Maksimum iş təzyiqi 20 bardır."
+        "category": "Air Filters",
+        "Img": "./src/images/SpareParts/AirFilter/AirFilter4.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
       },
       {
-        "category": "Lorem 5",
-        "Img": "src/images/SpareParts/SparePart2.png",
-        "title": "Hava-yağ Separator filtr ",
-        "thePrice": "200 Azn",
-        "description": "Yağ buxarlarını sıxılmış havadan süzmək üçün nəzərdə tutulub. Maksimum iş təzyiqi 20 bardır."
+        "category": "Air Filters",
+        "Img": "./src/images/SpareParts/AirFilter/AirFilter5.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Oil Filters",
+        "Img": "./src/images/SpareParts/OilFilter/YFilter1.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Oil Filters",
+        "Img": "./src/images/SpareParts/OilFilter/YFilter2.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Oil Filters",
+        "Img": "./src/images/SpareParts/OilFilter/YFilter3.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Oil Filters",
+        "Img": "./src/images/SpareParts/OilFilter/YFilter3.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filters",
+        "Img": "./src/images/SpareParts/LineFilter/YTXFilter1.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filters",
+        "Img": "./src/images/SpareParts/LineFilter/YTXFilter2.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filters",
+        "Img": "./src/images/SpareParts/LineFilter/YTXFilter3.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filters",
+        "Img": "./src/images/SpareParts/LineFilter/YTXFilter4.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filters",
+        "Img": "./src/images/SpareParts/LineFilter/YTXFilter5.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filter Inner Element",
+        "Img": "./src/images/SpareParts/FilterElement/XFIE1.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Line Filter Inner Element",
+        "Img": "./src/images/SpareParts/FilterElement/XFIE2.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Air-Oil Separators",
+        "Img": "./src/images/SpareParts/AirOilSeparator/Separator1.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Air-Oil Separators",
+        "Img": "./src/images/SpareParts/AirOilSeparator/Separator2.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Air-Oil Separators",
+        "Img": "./src/images/SpareParts/AirOilSeparator/Separator3.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Separator",
+        "Img": "./src/images/SpareParts/Separators/Separator1.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Separator",
+        "Img": "./src/images/SpareParts/Separators/Separator2.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Separator",
+        "Img": "./src/images/SpareParts/Separators/Separator3.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      {
+        "category": "Separator",
+        "Img": "./src/images/SpareParts/Separators/Separator4.png",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
       }
     ],
     "Categories": [
-      "Filter",
-      "Lorem 2",
-      "Lorem 3",
-      "Lorem 4",
-      "Lorem 5",
-      "Lorem 6",
-      "Lorem 7",
-      "Lorem 8"
+      "Air Filters",
+      "Oil Filters",
+      "Line Filters",
+      "Line Filter Inner Element",
+      "Air-Oil Separators",
+      "Separator"
     ]
   },
   "ProductsPart": {
     "Products": [
       {
         "categories": "Lorem 3",
-        "Img": "src/Images/Products/Centrifugal_Air_Compressor.jpg",
+        "img": "./src/Images/Products/AirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -78,7 +181,7 @@
       },
       {
         "categories": "Lorem 1",
-        "Img": "src/Images/Products/Centrifugal_Air_Compressor.jpg",
+        "img": "./src/Images/Products/DieselAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -86,7 +189,7 @@
       },
       {
         "categories": "Lorem 1",
-        "Img": "src/Images/Products/Diesel_Portable_Air_Compressor_3.jpg",
+        "img": "./src/Images/Products/DryAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 2",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -94,7 +197,7 @@
       },
       {
         "categories": "Lorem 1",
-        "img": "src/Images/Products/Dry_Type_Oil-free_Air_Compressor.jpg",
+        "img": "./src/Images/Products/EnergyAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 3",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -102,7 +205,7 @@
       },
       {
         "categories": "Lorem 2",
-        "img": "src/Images/Products/High_Pressure_Screw_Air_Compressor.jpg",
+        "img": "./src/Images/Products/ScrewAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 4",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -110,7 +213,7 @@
       },
       {
         "categories": "Lorem 2",
-        "img": "src/Images/Products/Enery-Saving_Air_Compressor.jpg",
+        "img": "./src/Images/Products/ScrewCompressor.jpg",
         "title": "Diesel Portable Air Compressor 5",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -118,7 +221,7 @@
       },
       {
         "categories": "Lorem 3",
-        "img": "src/Images/Products/Dry_Type_Oil-free_Air_Compressor.jpg",
+        "img": "./src/Images/Products/AirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 6",
         "workingPower": "Working power: 34.6-522[kw]",
         "freeAirDelivery": "Working power: 34.6-522[kw]",
@@ -126,7 +229,7 @@
       },
       {
         "categories": "Lorem 4",
-        "img": "src/Images/Products/Dry_Type_Oil-free_Air_Compressor.jpg",
+        "img": "./src/Images/Products/DieselAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 7",
         "workingPower": "Working power: 34.6-522[kw]",
         "freeAirDelivery": "Working power: 34.6-522[kw]",
@@ -134,7 +237,7 @@
       },
       {
         "categories": "Lorem 5",
-        "img": "src/Images/Products/High_Pressure_Screw_Air_Compressor.jpg",
+        "img": "./src/Images/Products/DryAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 8",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -142,7 +245,7 @@
       },
       {
         "categories": "Lorem 6",
-        "img": "src/Images/Products/Dry_Type_Oil-free_Air_Compressor.jpg",
+        "img": "./src/Images/Products/EnergyAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 9",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -150,7 +253,7 @@
       },
       {
         "categories": "Lorem 7",
-        "img": "src/Images/Products/High_Pressure_Screw_Air_Compressor.jpg",
+        "img": "./src/Images/Products/ScrewAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 10",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -158,7 +261,7 @@
       },
       {
         "categories": "Lorem 8",
-        "img": "src/Images/Products/High_Pressure_Screw_Air_Compressor.jpg",
+        "img": "./src/Images/Products/ScrewCompressor.jpg",
         "title": "Diesel Portable Air Compressor 11",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -178,7 +281,7 @@
   },
   "CompressorsAndTexts": {
     "FirstCompressor": {
-      "Img": "src/Images/Compressors/kompressor1.png",
+      "Img": "./src/Images/Compressors/kompressor1.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -186,7 +289,7 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "SecondCompressor": {
-      "Img": "src/Images/Compressors/kompressor2.png",
+      "Img": "./src/Images/Compressors/kompressor2.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -194,7 +297,7 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "ThirdCompressor": {
-      "Img": "src/Images/Compressors/kompressor3.png",
+      "Img": "./src/Images/Compressors/kompressor3.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -202,7 +305,7 @@
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "FourthCompressor": {
-      "Img": "src/Images/Compressors/kompressor4.png",
+      "Img": "./src/Images/Compressors/kompressor4.png",
       "AzHeaderText": "Vintli Kompressor",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
@@ -221,22 +324,22 @@
       "AzSparePartText": "Ehtiyat Hissələri"
     },
     "SparePartFirst": {
-      "SparePart1": "src/Images/SpareParts/SparePart1.png",
+      "SparePart1": "./src/Images/SpareParts/SparePart1.png",
       "SparePartText1": "MANN FILTER",
       "SparePartText2": "Oil filter (W 962/14)"
     },
     "SparePartSecond": {
-      "SparePart2": "src/Images/SpareParts/SparePart2.png",
+      "SparePart2": "./src/Images/SpareParts/SparePart2.png",
       "SparePartText1": "MANN FILTER",
       "SparePartText2": "Air-Oil Separator"
     },
     "SparePartThird": {
-      "SparePart3": "src/Images/SpareParts/SparePart3.png",
+      "SparePart3": "./src/Images/SpareParts/SparePart3.png",
       "SparePartText1": "ECOMAK FILTER",
       "SparePartText2": "Line Filter"
     },
     "SparePartFourth": {
-      "SparePart4": "src/Images/SpareParts/SparePart4.png",
+      "SparePart4": "./src/Images/SpareParts/SparePart4.png",
       "SparePartText1": "SAI AIRTECH",
       "SparePartText2": "Oil separator"
     }

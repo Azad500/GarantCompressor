@@ -12,10 +12,7 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.firstImageInUpStep}>
             <img
               className={styles.firstImage}
-              src={
-                AllInformations.AzerbaijanLanguage.CompressorsAndTexts
-                  .FirstCompressor.Img
-              }
+              src={t("CompressorsAndTexts.FirstCompressor.Img")}
               alt="First Compressor"
             />
             <div className={styles.compressorsTexts}>
@@ -30,10 +27,7 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.secondImageInUpStep}>
             <img
               className={styles.secondImage}
-              src={
-                AllInformations.AzerbaijanLanguage.CompressorsAndTexts
-                  .SecondCompressor.Img
-              }
+              src={t("CompressorsAndTexts.SecondCompressor.Img")}
               alt="Second Compressor"
             />
             <div className={styles.compressorsTexts}>
@@ -50,11 +44,8 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.firstImageInDownStep}>
             <img
               className={styles.thirdImage}
-              src={
-                AllInformations.AzerbaijanLanguage.CompressorsAndTexts
-                  .ThirdCompressor.Img
-              }
-              alt="Second Compressor"
+              src={t("CompressorsAndTexts.ThirdCompressor.Img")}
+              alt="Third Compressor"
             />
             <div className={styles.compressorsTexts}>
               <a>{t("CompressorsAndTexts.ThirdCompressor.AzHeaderText")}</a>
@@ -68,11 +59,8 @@ export default function FourCompressors({ productsRef, t }) {
           <div className={styles.secondImageInDownStep}>
             <img
               className={styles.fourthImage}
-              src={
-                AllInformations.AzerbaijanLanguage.CompressorsAndTexts
-                  .FourthCompressor.Img
-              }
-              alt="Second Compressor"
+              src={t("CompressorsAndTexts.FourthCompressor.Img")}
+              alt="Fourth Compressor"
             />
             <div className={styles.compressorsTexts}>
               <a>{t("CompressorsAndTexts.FourthCompressor.AzHeaderText")}</a>

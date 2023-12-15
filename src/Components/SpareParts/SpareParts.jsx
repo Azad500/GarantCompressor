@@ -1,4 +1,3 @@
-import AllInformations from "../../informations";
 import styles from "./SpareParts.module.scss";
 import { Link } from "react-router-dom";
 export default function SpareParts({ sparePartsRef, t }) {
@@ -24,7 +23,7 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartFirst.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  {t("DetailedSearchText")}
+                  <Link to="/products"> {t("DetailedSearchText")}</Link>
                 </button>
               </div>
             </div>
@@ -35,7 +34,7 @@ export default function SpareParts({ sparePartsRef, t }) {
               <img
                 className={styles.secondImage}
                 src={t("SparePart.SparePartSecond.SparePart2")}
-                alt="First Spare Part Image"
+                alt="Second Spare Part Image"
               />
             </div>
             <div className={styles.sparePartTexts}>
@@ -43,7 +42,7 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartSecond.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  {t("DetailedSearchText")}
+                  <Link to="/products"> {t("DetailedSearchText")}</Link>
                 </button>
               </div>
             </div>
@@ -56,11 +55,8 @@ export default function SpareParts({ sparePartsRef, t }) {
             <div className={`${styles.imgElement} ${styles.imgElement3}`}>
               <img
                 className={styles.thirdImage}
-                src={
-                  AllInformations.AzerbaijanLanguage.SparePart.SparePartThird
-                    .SparePart3
-                }
-                alt="First Spare Part Image"
+                src={t("SparePart.SparePartThird.SparePart3")}
+                alt="Third Spare Part Image"
               />
             </div>
             <div className={styles.sparePartTexts}>
@@ -68,7 +64,7 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartThird.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  {t("DetailedSearchText")}
+                  <Link to="/products"> {t("DetailedSearchText")}</Link>
                 </button>
               </div>
             </div>
@@ -78,11 +74,8 @@ export default function SpareParts({ sparePartsRef, t }) {
             <div className={`${styles.imgElement} ${styles.imgElement4}`}>
               <img
                 className={styles.fourthImage}
-                src={
-                  AllInformations.AzerbaijanLanguage.SparePart.SparePartFourth
-                    .SparePart4
-                }
-                alt="First Spare Part Image"
+                src={t("SparePart.SparePartFourth.SparePart4")}
+                alt="Fourth Spare Part Image"
               />
             </div>
             <div className={styles.sparePartTexts}>
@@ -90,7 +83,7 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartFourth.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  {t("DetailedSearchText")}
+                  <Link to="/products"> {t("DetailedSearchText")}</Link>
                 </button>
               </div>
             </div>

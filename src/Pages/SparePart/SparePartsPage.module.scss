@@ -55,7 +55,7 @@
         li {
           padding: 10px 5px;
           text-decoration: none;
-          color: #9bbec8;
+          color: #ddf2fd;
           font-size: 1.4rem;
         }
       }
@@ -127,60 +127,37 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
-      @include responsive768 {
+      @include responsive550 {
         grid-template-columns: 1fr 1fr;
       }
-      @include responsive1024 {
+      @include responsive992 {
         grid-template-columns: 1fr 1fr 1fr;
       }
       .cardItem {
-        width: 280px;
-        height: 350px;
-        margin: 0 auto;
+        width: 200px;
+        margin: auto;
         border: 1px solid #164863;
         border-radius: 10px;
         background-color: #164863;
-        @include responsive450 {
-          width: 350px;
-          height: 410px;
-        }
         @include responsive550 {
-          width: 450px;
-          height: 490px;
-        }
-        @include responsive768 {
-          width: 280px;
-          height: 400px;
-        }
-        @include responsive900 {
-          width: 300px;
-          height: 390px;
-        }
-        @include responsive1000 {
-          width: 370px;
-          height: 440px;
-        }
-        @include responsive1024 {
-          width: 250px;
-          height: 370px;
+          width: 240px;
         }
         @include responsive1200 {
           width: 300px;
-          height: 430px;
-        }
-        @include responsive1400 {
-          width: 330px;
-        }
-        @include responsive1500 {
-          width: 350px;
-          height: 440px;
         }
         img {
           width: 100%;
+          height: 250px;
           object-fit: cover;
           border: 1px solid #164863;
           border-top-left-radius: 10px;
           border-top-right-radius: 10px;
+          @include responsive550 {
+            height: 300px;
+          }
+          @include responsive1200 {
+            height: 380px;
+          }
         }
         .onlyTexts {
           padding: 10px 5px 0 5px;
@@ -217,12 +194,15 @@
       }
     }
   }
-  .compressorInProduct {
+  .compressorInSparePart {
     width: 90%;
     margin: auto;
+    @include responsive450 {
+      width: 400px;
+    }
     @include responsive768 {
       display: flex;
-      width: 98.5%;
+      width: 95%;
     }
     img {
       border-top-left-radius: 10px;
@@ -236,7 +216,7 @@
         border-bottom-left-radius: 10px;
       }
     }
-    .aboutInProducts {
+    .aboutInSparePart {
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       border-top: 1px solid #164863;
