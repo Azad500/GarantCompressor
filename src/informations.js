@@ -6,6 +6,10 @@ import AydinTrafoLogo from "./Images/Partners/AydinTrafoLogo.png";
 import DalgaKiranLogo from "./Images/Partners/DalgaKiranLogo.png";
 import CompressorInProduct from "./Images/Products/Compressors.png";
 import SparePartsImage from "./Images/SpareParts/SpareParts.jpeg";
+import FullTimeService from "./Images/AboutUs/24-7.png";
+import Lowest from "./Images/AboutUs/Lowest.png";
+import Reliability from "./Images/AboutUs/Reliability.png";
+import Satisfaction from "./Images/AboutUs/Satisfaction.png";
 
 const AllInformations = {
   Navbar: {
@@ -38,6 +42,28 @@ const AllInformations = {
   },
   SpareParts: {
     SparePartsImage: SparePartsImage,
+  },
+  AboutUsPage: {
+    customerSlider: {
+      FiloLogoImage: FiloLogo,
+      EkomakLogoImage: EkomakLogo,
+      AydinTrafoLogoImage: AydinTrafoLogo,
+      DalgaKiranLogoImage: DalgaKiranLogo,
+    },
+    top4: {
+      FirstInfo: {
+        img: Reliability,
+      },
+      SecondInfo: {
+        img: Satisfaction,
+      },
+      ThirdInfo: {
+        img: FullTimeService,
+      },
+      FourthInfo: {
+        img: Lowest,
+      },
+    },
   },
 };
 export default AllInformations;

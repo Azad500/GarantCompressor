@@ -1,0 +1,206 @@
+@import "../../Scss/measure";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.AboutUsSection {
+  background-color: #9bbec8;
+  .companyAboutDiv {
+    width: 90%;
+    margin: auto;
+    h4 {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 16px;
+      @include responsive768 {
+        font-size: 18px;
+      }
+      @include responsive992 {
+        font-size: 20px;
+      }
+      @include responsive1200 {
+        font-size: 24px;
+      }
+    }
+    .aboutUsDesc {
+      div {
+        img {
+          width: 100%;
+          border-radius: 15px;
+        }
+      }
+      .companyTexts {
+        padding-top: 20px;
+        font-size: 14px;
+        @include responsive768 {
+          font-size: 16px;
+        }
+        @include responsive992 {
+          font-size: 18px;
+        }
+        @include responsive1200 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .top4Cards {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    @include responsive600 {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include responsive992 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      @include responsive992 {
+        width: 25%;
+        margin: 0 10px;
+      }
+      div {
+        width: 100%;
+        margin: 10px 0;
+        img {
+          width: 100px;
+          @include responsive992 {
+            width: 150px;
+          }
+        }
+      }
+      h3 {
+        font-size: 14px;
+        @include responsive600 {
+          font-size: 16px;
+        }
+        @include responsive768 {
+          font-size: 18px;
+        }
+        @include responsive1024 {
+          font-size: 20px;
+        }
+        @include responsive1200 {
+          font-size: 24px;
+        }
+      }
+      p {
+        text-align: center;
+        max-width: 400px;
+        font-size: 12px;
+        @include responsive768 {
+          max-width: none;
+        }
+        @include responsive600 {
+          font-size: 13px;
+        }
+        @include responsive768 {
+          font-size: 16px;
+        }
+        @include responsive1024 {
+          font-size: 18px;
+        }
+        @include responsive1200 {
+          font-size: 20px;
+        }
+      }
+    }
+    div:nth-child(2) {
+      margin-top: 30px;
+      @include responsive992 {
+        margin-top: unset;
+      }
+    }
+    div:nth-child(4) {
+      margin-bottom: 5px;
+      @include responsive992 {
+        margin-bottom: unset;
+      }
+    }
+  }
+  .customersDiv {
+    background-color: #164863;
+    padding: 10px 0;
+    .customersHead {
+      text-align: center;
+      font-weight: bold;
+      color: #ddf2fd;
+      padding: 20px 0;
+      h4 {
+        font-size: 14px;
+        @include responsive600 {
+          font-size: 16px;
+        }
+        @include responsive768 {
+          font-size: 18px;
+        }
+        @include responsive1024 {
+          font-size: 20px;
+        }
+        @include responsive1200 {
+          font-size: 22px;
+        }
+      }
+    }
+    .slideCustomersLogo {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      overflow-x: scroll;
+      box-sizing: border-box;
+      background-color: #9bbec8;
+      &.paused {
+        .logoElement {
+          animation-play-state: paused;
+        }
+      }
+      @include responsive1024 {
+        padding: 10px 0;
+      }
+      &:hover {
+        overflow-x: auto;
+      }
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .logoElement {
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        animation: upSliderShow 20s infinite linear;
+        position: relative;
+        gap: 10px;
+        @keyframes upSliderShow {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+        .imageElement {
+          width: 100px;
+          cursor: pointer;
+          transition: 0.5s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+          @include responsive768 {
+            width: 150px;
+          }
+          @include responsive1200 {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}

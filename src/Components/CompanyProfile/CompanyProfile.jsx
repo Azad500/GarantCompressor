@@ -1,5 +1,6 @@
 import styles from "./CompanyProfile.module.scss";
 import AllInformations from "../../informations";
+import { Link } from "react-router-dom";
 
 export default function CompanyProfile({ companyProfileRef, t }) {
   return (
@@ -19,7 +20,11 @@ export default function CompanyProfile({ companyProfileRef, t }) {
           <p>{t("CompanyProfile.AzCompanyName")}</p>
           <p>{t("CompanyProfile.AzAboutCompany")}</p>
           <div className={styles.detailedSearchElement}>
-            <p>{t("CompanyProfile.AzDetailedSearchTexts")}</p>
+            <Link className={styles.Link} to="/aboutUs">
+              <p className={styles.detailedSearchText}>
+                {t("CompanyProfile.AzDetailedSearchTexts")}
+              </p>
+            </Link>
           </div>
         </div>
       </div>

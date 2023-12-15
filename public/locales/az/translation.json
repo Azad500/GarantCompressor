@@ -334,5 +334,24 @@
       "SparePartText1": "SAİ AİRTECH",
       "SparePartText2": "Yağ separatoru"
     }
+  },
+  "AboutUsPage": {
+    "title": "Bizim Müştərilərimiz",
+    "FirstInfo": {
+      "title": "Etibarlılıq",
+      "description": "Tanınmış kompressor istehsalçılarının, qabaqcıl texnologiyanın və keyfiyyətli Alman istehsalçılarının kompressorlarını təklif edirik."
+    },
+    "SecondInfo": {
+      "title": "Keyfiyyət",
+      "description": "Kompressorlarımızın yüksək keyfiyyəti on minlərlə iş saatı ilə sübut edilmişdir."
+    },
+    "ThirdInfo": {
+      "title": " 7/24 Peşəkar servis xidməti",
+      "description": "Biz müştərilərimizə 7/24 xidmət təqdim edirik"
+    },
+    "FourthInfo": {
+      "title": " Münasib qiymət",
+      "description": "Təqdim olunan məhsulların böyük bir çeşidi bizə əlverişli bir qiymətə tələb olunan avadanlığı seçmək imkanı verir."
+    }
   }
 }

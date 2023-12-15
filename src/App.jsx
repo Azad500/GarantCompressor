@@ -8,6 +8,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import SparePartsPage from "./Pages/SparePart/SparePartsPage";
 import { useTranslation } from "react-i18next";
+import AboutUs from "./Pages/AboutUs/AboutUs";
+import CompanyProfile from "./Components/CompanyProfile/CompanyProfile";
 
 export default function App() {
   const { t, i18n } = useTranslation();
@@ -70,6 +72,7 @@ export default function App() {
             />
           }
         />
+        <Route path="/aboutUs" element={<AboutUs t={t} />} />
       </Routes>
       <Footer footerRef={refs.footerRef} t={t} />
       <Developer t={t} />

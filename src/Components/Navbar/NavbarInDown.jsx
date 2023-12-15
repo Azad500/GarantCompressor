@@ -49,7 +49,8 @@ export default function NavbarInDown({
         <li>
           <a href="/">{t("Home")}</a>
         </li>
-        {location.pathname === "/products" ? (
+        {location.pathname === "/products" ||
+        location.pathname === "/aboutUs" ? (
           <li>
             <Link to="/spareParts">{t("Products")}</Link>
           </li>
@@ -58,7 +59,8 @@ export default function NavbarInDown({
             <a onClick={() => handleClick("productsRef")}>{t("Products")}</a>
           </li>
         )}
-        {location.pathname === "/spareParts" ? (
+        {location.pathname === "/spareParts" ||
+        location.pathname === "/aboutUs" ? (
           <li>
             <Link to="/products">{t("SpareParts")}</Link>
           </li>
@@ -70,14 +72,27 @@ export default function NavbarInDown({
           </li>
         )}
         {location.pathname !== "/products" &&
+          location.pathname !== "/aboutUs" &&
           location.pathname !== "/spareParts" && (
             <li>
               <a onClick={() => handleClick("partnersRef")}>{t("Partners")}</a>
             </li>
           )}
-        <li>
+        {location.pathname === "/spareParts" ||
+        location.pathname === "/products" ? (
+          <li>
+            <Link to="aboutUs">{t("AboutUs")}</Link>
+          </li>
+        ) : (
+          <li>
+            <a onClick={() => handleClick("companyProfileRef")}>
+              {t("AboutUs")}
+            </a>
+          </li>
+        )}
+        {/* <li>
           <a onClick={() => handleClick("companyProfileRef")}>{t("AboutUs")}</a>
-        </li>
+        </li> */}
         <li>
           <a onClick={() => handleClick("footerRef")}>{t("ContactWithUs")}</a>
         </li>

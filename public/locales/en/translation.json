@@ -343,5 +343,24 @@
       "SparePartText1": "SAI AIRTECH",
       "SparePartText2": "Oil separator"
     }
+  },
+  "AboutUsPage": {
+    "title": "Our Customers",
+    "FirstInfo": {
+      "title": "Reliability",
+      "description": "We offer compressors from well-known compressor manufacturers, advanced technology and quality German manufacturers."
+    },
+    "SecondInfo": {
+      "title": "Quality",
+      "description": "The high quality of our compressors is proven by tens of thousands of working hours."
+    },
+    "ThirdInfo": {
+      "title": "24/7 professional service",
+      "description": "We provide 24/7 service to our customers"
+    },
+    "FourthInfo": {
+      "title": "Reasonable price",
+      "description": "A large range of presented products allows us to choose the required equipment at an affordable price."
+    }
   }
 }
