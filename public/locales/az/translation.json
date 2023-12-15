@@ -2,7 +2,7 @@
   "MakeSite": "Saytı Hazırladı ",
   "FirstDeveloperName": "Azad Mirzəzadə : (+994)70 842 40 43",
   "SecondDeveloperName": "Səid İsaoğlu : (+994)50 367 98 99",
-  "Logo": "./src/images/Navbar/AzCompanyLogo.png",
+  "Logo": "<img src=../../../src/images/Navbar/AzCompanyLogo.png>",
   "Home": "Ana Səhifə",
   "Products": "Məhsullarımız",
   "Partners": "Partnyorlarımız",
