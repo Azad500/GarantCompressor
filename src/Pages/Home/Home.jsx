@@ -9,11 +9,17 @@ export default function Home({
   sparePartsRef,
   partnersRef,
   companyProfileRef,
+  selectedLanguage,
+  setSelectedLanguage,
   t,
 }) {
   return (
     <div>
-      <CarouselInPage t={t} />
+      <CarouselInPage
+        t={t}
+        selectedLanguage={selectedLanguage}
+        setSelectedLanguage={setSelectedLanguage}
+      />
       <FourCompressors productsRef={productsRef} t={t} />
       <SpareParts sparePartsRef={sparePartsRef} t={t} />
       <Partners partnersRef={partnersRef} t={t} />

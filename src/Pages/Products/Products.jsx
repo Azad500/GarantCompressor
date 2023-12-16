@@ -74,17 +74,20 @@ export default function Products({
         <div className={styles.cardsContainer}>
           {data.ProductsPart.Products?.filter((product) =>
             selectedCategory ? product.categories === selectedCategory : true
-          ).map((product, index) => (
-            <div key={index} className={styles.cardItem}>
-              <img src={product.img} alt="images" />
-              <div className={styles.onlyTexts}>
-                <h3>{product.title}</h3>
-                <p>{product.workingPower}</p>
-                <p>{product.freeAirDelivery}</p>
-                <p>{product.workingPressure}</p>
+          ).map((product, index) => {
+            const productImage = AllInformations.ProductsImages[index];
+            return (
+              <div key={index} className={styles.cardItem}>
+                <img src={productImage} alt="Product" />
+                <div className={styles.onlyTexts}>
+                  <h3>{product.title}</h3>
+                  <p>{product.workingPower}</p>
+                  <p>{product.freeAirDelivery}</p>
+                  <p>{product.workingPressure}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
       <div className={styles.compressorInProduct}>

@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import styles from "./DropDownMenu.module.scss";
 import { useTranslation } from "react-i18next";
 
-export default function DropDownLanguage() {
+export default function DropDownLanguage({
+  selectedLanguage,
+  setSelectedLanguage,
+}) {
   const [dropdownVisible, setDropdownVisible] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState("AZ");
   const [selectedLang, setSelectedLang] = useState();
   const { i18n } = useTranslation();
 

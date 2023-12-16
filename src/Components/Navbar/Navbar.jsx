@@ -6,6 +6,8 @@ export default function Navbar({
   handleClick,
   pagesHamburgerBar,
   setPagesHamburgerBar,
+  selectedLanguage,
+  setSelectedLanguage,
   t,
 }) {
   return (
@@ -16,6 +18,8 @@ export default function Navbar({
         handleClick={handleClick}
         pagesHamburgerBar={pagesHamburgerBar}
         setPagesHamburgerBar={setPagesHamburgerBar}
+        selectedLanguage={selectedLanguage}
+        setSelectedLanguage={setSelectedLanguage}
         t={t}
       />
     </>

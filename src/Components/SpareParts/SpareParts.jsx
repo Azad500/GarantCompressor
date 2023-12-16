@@ -5,7 +5,7 @@ export default function SpareParts({ sparePartsRef, t }) {
   return (
     <section ref={sparePartsRef} className={styles.section}>
       <div className={styles.headerText}>
-        <p>{t("SparePart.SamePartInSparePart.AzSparePartText")}</p>
+        <p>{t("SpareParts")}</p>
       </div>
       <div className={styles.twoElement}>
         {/* -----------------firstElement-------------- */}

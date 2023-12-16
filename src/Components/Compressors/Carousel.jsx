@@ -5,7 +5,7 @@ import AllInformations from "../../informations";
 import styles from "./Carousel.module.scss";
 import "./Carousel.css";
 
-function CarouselInPage({ t }) {
+function CarouselInPage({ t, selectedLanguage, setSelectedLanguage }) {
   return (
     <>
       {" "}
@@ -15,7 +15,21 @@ function CarouselInPage({ t }) {
             <p>{t("FirstLeftTextInCarousel")}</p>
             <p>{t("SecondLeftTextInCarousel")}</p>
           </div>
-          <img src={t("Logo")} alt="Garant Compressor" />
+          {selectedLanguage === "az" ? (
+            <img src={AllInformations.SameParts.AzLogo} alt="Az Company Logo" />
+          ) : (
+            false
+          )}
+          {selectedLanguage === "en" ? (
+            <img src={AllInformations.SameParts.EnLogo} alt="En Company Logo" />
+          ) : (
+            false
+          )}
+          {selectedLanguage === "ru" ? (
+            <img src={AllInformations.SameParts.RuLogo} alt="Ru Company Logo" />
+          ) : (
+            false
+          )}
           <div className={styles.rightTexts}>
             <p>{t("FirstRightTextInCarousel")}</p>
             <p>{t("SecondRightTextİnCarousel")}</p>

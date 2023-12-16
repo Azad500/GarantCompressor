@@ -75,17 +75,20 @@ export default function SparePartsPage({
         <div className={styles.cardsContainer}>
           {data.SparePartPage.Spares?.filter((spare) =>
             selectedCategory ? spare.category === selectedCategory : true
-          ).map((spare, index) => (
-            <div key={index} className={styles.cardItem}>
-              <img src={spare.Img} alt="Images" />
-              <div className={styles.onlyTexts}>
-                <h3>{spare.category}</h3>
-                <p>{spare.title}</p>
-                <p>{spare.thePrice}</p>
-                <p>{spare.description}</p>
+          ).map((spare, index) => {
+            const productImage = AllInformations.AirFilters[index];
+            return (
+              <div key={index} className={styles.cardItem}>
+                <img src={productImage} alt="Images" />
+                <div className={styles.onlyTexts}>
+                  <h3>{spare.category}</h3>
+                  <p>{spare.title}</p>
+                  <p>{spare.thePrice}</p>
+                  <p>{spare.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
       <div className={styles.compressorInSparePart}>

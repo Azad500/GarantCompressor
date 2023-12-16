@@ -8,15 +8,29 @@ export default function NavbarInDown({
   handleClick,
   pagesHamburgerBar,
   setPagesHamburgerBar,
+  selectedLanguage,
+  setSelectedLanguage,
   t,
 }) {
   const location = useLocation();
   return (
     <section className={styles.section}>
       <div className={styles.logoContainer}>
-        <img src={AllInformations.SameParts.AzLogo} alt="Az Company Logo" />
-        {/* <img src={AllInformations.SameParts.EnLogo} alt="En Company Logo" /> */}
-        {/* <img src={AllInformations.SameParts.RuLogo} alt="Ru Company Logo" /> */}
+        {selectedLanguage === "az" ? (
+          <img src={AllInformations.SameParts.AzLogo} alt="Az Company Logo" />
+        ) : (
+          false
+        )}
+        {selectedLanguage === "en" ? (
+          <img src={AllInformations.SameParts.EnLogo} alt="En Company Logo" />
+        ) : (
+          false
+        )}
+        {selectedLanguage === "ru" ? (
+          <img src={AllInformations.SameParts.RuLogo} alt="Ru Company Logo" />
+        ) : (
+          false
+        )}
         <h1>{AllInformations.Navbar.CompanyName}</h1>
       </div>
       {location.pathname !== "/" && (
@@ -27,7 +41,10 @@ export default function NavbarInDown({
         </div>
       )}
       <div className={styles.hamburgerContainer}>
-        <DropDownLanguage />
+        <DropDownLanguage
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+        />
         <HamburgerBar
           pagesHamburgerBar={pagesHamburgerBar}
           setPagesHamburgerBar={setPagesHamburgerBar}
@@ -84,7 +101,10 @@ export default function NavbarInDown({
         </li>
       </ul>
       <div className={styles.dropdownContainer}>
-        <DropDownLanguage />
+        <DropDownLanguage
+          selectedLanguage={selectedLanguage}
+          setSelectedLanguage={setSelectedLanguage}
+        />
       </div>
     </section>
   );

@@ -12,6 +12,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import CompanyProfile from "./Components/CompanyProfile/CompanyProfile";
 
 export default function App() {
+  const [selectedLanguage, setSelectedLanguage] = useState("az");
   const { t, i18n } = useTranslation();
   const [pagesHamburgerBar, setPagesHamburgerBar] = useState(false);
   const refs = {
@@ -35,6 +36,8 @@ export default function App() {
         handleClick={handleClick}
         pagesHamburgerBar={pagesHamburgerBar}
         setPagesHamburgerBar={setPagesHamburgerBar}
+        selectedLanguage={selectedLanguage}
+        setSelectedLanguage={setSelectedLanguage}
         t={t}
       />
       <Routes>
@@ -46,6 +49,8 @@ export default function App() {
               sparePartsRef={refs.sparePartsRef}
               partnersRef={refs.partnersRef}
               companyProfileRef={refs.companyProfileRef}
+              selectedLanguage={selectedLanguage}
+              setSelectedLanguage={setSelectedLanguage}
               t={t}
             />
           }

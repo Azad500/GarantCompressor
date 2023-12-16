@@ -22,139 +22,116 @@
     "Spares": [
       {
         "category": "Hava Filterləri",
-        "Img": "./src/images/SpareParts/AirFilter/AirFilter1.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava Filterləri",
-        "Img": "./src/images/SpareParts/AirFilter/AirFilter2.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava Filterləri",
-        "Img": "./src/images/SpareParts/AirFilter/AirFilter3.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava Filterləri",
-        "Img": "./src/images/SpareParts/AirFilter/AirFilter4.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava Filterləri",
-        "Img": "./src/images/SpareParts/AirFilter/AirFilter5.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Yağ Filterləri",
-        "Img": "./src/images/SpareParts/OilFilter/YFilter1.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Yağ Filterləri",
-        "Img": "./src/images/SpareParts/OilFilter/YFilter2.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Yağ Filterləri",
-        "Img": "./src/images/SpareParts/OilFilter/YFilter3.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Yağ Filterləri",
-        "Img": "./src/images/SpareParts/OilFilter/YFilter3.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filterləri",
-        "Img": "./src/images/SpareParts/LineFilter/YTXFilter1.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filterləri",
-        "Img": "./src/images/SpareParts/LineFilter/YTXFilter2.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filterləri",
-        "Img": "./src/images/SpareParts/LineFilter/YTXFilter3.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filterləri",
-        "Img": "./src/images/SpareParts/LineFilter/YTXFilter4.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filterləri",
-        "Img": "./src/images/SpareParts/LineFilter/YTXFilter5.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filter İç Elementi",
-        "Img": "./src/images/SpareParts/FilterElement/XFIE1.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Xətt Filter İç Elementi",
-        "Img": "./src/images/SpareParts/FilterElement/XFIE2.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava-Yağ Separatorları",
-        "Img": "./src/images/SpareParts/AirOilSeparator/Separator1.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava-Yağ Separatorları",
-        "Img": "./src/images/SpareParts/AirOilSeparator/Separator2.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Hava-Yağ Separatorları",
-        "Img": "./src/images/SpareParts/AirOilSeparator/Separator3.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Separator",
-        "Img": "./src/images/SpareParts/Separators/Separator1.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Separator",
-        "Img": "./src/images/SpareParts/Separators/Separator2.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Separator",
-        "Img": "./src/images/SpareParts/Separators/Separator3.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       },
       {
         "category": "Separator",
-        "Img": "./src/images/SpareParts/Separators/Separator4.png",
         "title": "Marka : MANN-FILTER",
         "description": "Ticarət Nömrəsi : C 12 004"
       }
@@ -172,7 +149,6 @@
     "Products": [
       {
         "categories": "Lorem 3",
-        "img": "./src/Images/Products/AirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -180,7 +156,6 @@
       },
       {
         "categories": "Lorem 1",
-        "img": "./src/Images/Products/DieselAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -188,7 +163,6 @@
       },
       {
         "categories": "Lorem 1",
-        "img": "./src/Images/Products/DryAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 2",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -196,7 +170,6 @@
       },
       {
         "categories": "Lorem 1",
-        "img": "./src/Images/Products/EnergyAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 3",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -204,7 +177,6 @@
       },
       {
         "categories": "Lorem 2",
-        "img": "./src/Images/Products/ScrewAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 4",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -212,7 +184,6 @@
       },
       {
         "categories": "Lorem 2",
-        "img": "./src/Images/Products/ScrewCompressor.jpg",
         "title": "Diesel Portable Air Compressor 5",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -220,7 +191,6 @@
       },
       {
         "categories": "Lorem 3",
-        "img": "./src/Images/Products/AirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 6",
         "workingPower": "Working power: 34.6-522[kw]",
         "freeAirDelivery": "Working power: 34.6-522[kw]",
@@ -228,7 +198,6 @@
       },
       {
         "categories": "Lorem 4",
-        "img": "./src/Images/Products/DieselAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 7",
         "workingPower": "Working power: 34.6-522[kw]",
         "freeAirDelivery": "Working power: 34.6-522[kw]",
@@ -236,7 +205,6 @@
       },
       {
         "categories": "Lorem 5",
-        "img": "./src/Images/Products/DryAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 8",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -244,7 +212,6 @@
       },
       {
         "categories": "Lorem 5",
-        "img": "./src/Images/Products/EnergyAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 9",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -252,7 +219,6 @@
       },
       {
         "categories": "Lorem 3",
-        "img": "./src/Images/Products/ScrewAirCompressor.jpg",
         "title": "Diesel Portable Air Compressor 10",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -260,7 +226,6 @@
       },
       {
         "categories": "Lorem 5",
-        "img": "./src/Images/Products/ScrewCompressor.jpg",
         "title": "Diesel Portable Air Compressor 11",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
@@ -306,9 +271,6 @@
     "AzDetailedSearchTexts": "Ətraflı Bax >"
   },
   "SparePart": {
-    "SamePartInSparePart": {
-      "AzSparePartText": "Ehtiyat Hissələri"
-    },
     "SparePartFirst": {
       "SparePartText1": "MANN FİLTER",
       "SparePartText2": "Yağ filtri (W 962/14)"
