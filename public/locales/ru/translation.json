@@ -18,124 +18,140 @@
   "DetailedSearchText": "Узнать больше >",
   "AboutInProducts": "Помимо компрессоров, которые вы видите выше, мы покупаем и доставляем компрессоры любого типа напрямую от производителя. Если у вас нет нужного вам компрессора в разделе «Продукция», вы можете связаться с нами и получить компрессор, который вам нужен. хочу в короткие сроки!",
   "AboutInSpareParts": "Помимо запчастей, которые вы видите выше, мы покупаем и доставляем любые запасные части напрямую от производителя. Если у вас нет нужной запчасти в разделе запасных частей, вы можете связаться с нами и получить нужную запчасть в короткие сроки!",
+  "AirCategories": "Воздушные фильтры",
+  "OilCategories": "Масляные фильтры",
+  "LineCategories": "Линейные фильтры",
+  "InFiltersElementCategories": "Внутренний элемент линейного фильтра",
+  "AirOilFiltersCategories": "Воздушно-масляные сепараторы",
+  "SeparatorsCategories": "Разделитель",
+  "AirFiltersTexts": {
+    "Texts1": {
+      "category": "Воздушные фильтры",
+      "title": "Марка : MANN-FILTER 1",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts2": {
+      "category": "Воздушные фильтры",
+      "title": "Марка : MANN-FILTER 2",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts3": {
+      "category": "Воздушные фильтры",
+      "title": "Марка : MANN-FILTER 3",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts4": {
+      "category": "Воздушные фильтры",
+      "title": "Марка : MANN-FILTER 4",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts5": {
+      "category": "Воздушные фильтры",
+      "title": "Марка : MANN-FILTER 5",
+      "description": "Торговый номер : C 12 004"
+    }
+  },
+  "OilFiltersTexts": {
+    "Texts1": {
+      "category": "Масляные фильтры",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts2": {
+      "category": "Масляные фильтры",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts3": {
+      "category": "Масляные фильтры",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts4": {
+      "category": "Масляные фильтры",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    }
+  },
+  "LineFiltersTexts": {
+    "Texts1": {
+      "category": "Линейные фильтры",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Линейные фильтры",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Линейные фильтры",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts4": {
+      "category": "Линейные фильтры",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts5": {
+      "category": "Линейные фильтры",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "InFiltersElementTexts": {
+    "Texts1": {
+      "category": "Внутренний элемент линейного фильтра",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts2": {
+      "category": "Внутренний элемент линейного фильтра",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    }
+  },
+  "AirOilFiltersTexts": {
+    "Texts1": {
+      "category": "Воздушно-масляные сепараторы",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts2": {
+      "category": "Воздушно-масляные сепараторы",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts3": {
+      "category": "Воздушно-масляные сепараторы",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    }
+  },
+  "SeparatorsTexts": {
+    "Texts1": {
+      "category": "Разделитель",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts2": {
+      "category": "Разделитель",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts3": {
+      "category": "Разделитель",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    },
+    "Texts4": {
+      "category": "Разделитель",
+      "title": "Марка : MANN-FILTER",
+      "description": "Торговый номер : C 12 004"
+    }
+  },
   "SparePartPage": {
-    "Spares": [
-      {
-        "category": "Воздушные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Масляные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Масляные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Масляные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Масляные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Линейные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Линейные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Линейные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Линейные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Линейные фильтры",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Внутренний элемент линейного фильтра",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Внутренний элемент линейного фильтра",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушно-масляные сепараторы",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушно-масляные сепараторы",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Воздушно-масляные сепараторы",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Разделитель",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Разделитель",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Разделитель",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      },
-      {
-        "category": "Разделитель",
-        "title": "Марка : MANN-FILTER",
-        "description": "Торговый номер : C 12 004"
-      }
-    ],
     "Categories": [
       "Воздушные фильтры",
       "Масляные фильтры",

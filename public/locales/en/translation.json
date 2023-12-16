@@ -18,124 +18,140 @@
   "DetailedSearchText": "See more >",
   "AboutProducts": "In addition to the compressors you see above, we buy and deliver any type of compressors directly from the manufacturer. If you do not have the compressor you want in our Products section, you can contact us and get the compressor you want in a short time!",
   "AboutInSpareParts": "In addition to the spare parts you see above, we buy and deliver any type of spare parts directly from the manufacturer. If you don't have the spare part you want in the spare parts section, you can contact us and get the spare part you want in a short time!",
+  "AirCategories": "Air Filters",
+  "OilCategories": "Oil Filters",
+  "LineCategories": "Line Filters",
+  "InFiltersElementCategories": "Line Filter Inner Element",
+  "AirOilFiltersCategories": "Air-Oil Separators",
+  "SeparatorsCategories": "Separator",
+  "AirFiltersTexts": {
+    "Texts1": {
+      "category": "Air Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts2": {
+      "category": "Air Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts3": {
+      "category": "Air Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts4": {
+      "category": "Air Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts5": {
+      "category": "Air Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    }
+  },
+  "OilFiltersTexts": {
+    "Texts1": {
+      "category": "Oil Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts2": {
+      "category": "Oil Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts3": {
+      "category": "Oil Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts4": {
+      "category": "Oil Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    }
+  },
+  "LineFiltersTexts": {
+    "Texts1": {
+      "category": "Line Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Line Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Line Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts4": {
+      "category": "Line Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts5": {
+      "category": "Line Filters",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "InFiltersElementTexts": {
+    "Texts1": {
+      "category": "Line Filter Inner Element",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts2": {
+      "category": "Line Filter Inner Element",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    }
+  },
+  "AirOilFiltersTexts": {
+    "Texts1": {
+      "category": "Air-Oil Separators",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts2": {
+      "category": "Air-Oil Separators",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts3": {
+      "category": "Air-Oil Separators",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    }
+  },
+  "SeparatorsTexts": {
+    "Texts1": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts2": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts3": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    },
+    "Texts4": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Trading Number : C 12 004"
+    }
+  },
   "SparePartPage": {
-    "Spares": [
-      {
-        "category": "Air Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Oil Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Oil Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Oil Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Oil Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filters",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filter Inner Element",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Line Filter Inner Element",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air-Oil Separators",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air-Oil Separators",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Air-Oil Separators",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Trading Number : C 12 004"
-      }
-    ],
     "Categories": [
       "Air Filters",
       "Oil Filters",

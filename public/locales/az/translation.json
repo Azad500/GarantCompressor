@@ -18,124 +18,140 @@
   "DetailedSearchText": "Ətraflı Bax >",
   "AboutInProducts": "Yuxarıda gördüyünüz Kompressorlarla yanaşı istənilən növ kompressorların birbaşa istehsalçıdan alınıb çatdırılmasını həyata keçiririk. Əgər Məhsullarımız bölməsində olan kompressorların içərisində istədiyiniz kompressor yoxdursa, bizimlə əlaqə saxlayıb, qısa müddət ərzində istədiyiniz kompressoru əldə edə bilərsiniz!",
   "AboutInSpareParts": "Yuxarıda gördüyünüz Ehtiyat hissələri ilə yanaşı istənilən növ ehtiyat hissələrinin birbaşa istehsalçıdan alınıb çatdırılmasını həyata keçiririk. Əgər Ehtiyat hissələri bölməsində olan ehtiyat hissələrinin içərisində istədiyiniz ehtiyat hissəsi yoxdursa, bizimlə əlaqə saxlayıb, qısa müddət ərzində istədiyiniz ehtiyat hissəsini əldə edə bilərsiniz!",
+  "AirCategories": "Hava Filterləri",
+  "OilCategories": "Yağ Filterləri",
+  "LineCategories": "Xətt Filterləri",
+  "InFiltersElementCategories": "Xətt Filter İç Elementi",
+  "AirOilFiltersCategories": "Hava-Yağ Separatorları",
+  "SeparatorsCategories": "Separator",
+  "AirFiltersTexts": {
+    "Texts1": {
+      "category": "Hava Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Hava Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Hava Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts4": {
+      "category": "Hava Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts5": {
+      "category": "Hava Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "OilFiltersTexts": {
+    "Texts1": {
+      "category": "Yağ Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Yağ Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Yağ Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts4": {
+      "category": "Yağ Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "LineFiltersTexts": {
+    "Texts1": {
+      "category": "Xətt Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Xətt Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Xətt Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts4": {
+      "category": "Xətt Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts5": {
+      "category": "Xətt Filterləri",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "InFiltersElementTexts": {
+    "Texts1": {
+      "category": "Xətt Filter İç Elementi",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Xətt Filter İç Elementi",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "AirOilFiltersTexts": {
+    "Texts1": {
+      "category": "Hava-Yağ Separatorları",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Hava-Yağ Separatorları",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Hava-Yağ Separatorları",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
+  "SeparatorsTexts": {
+    "Texts1": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts2": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts3": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    },
+    "Texts4": {
+      "category": "Separator",
+      "title": "Marka : MANN-FILTER",
+      "description": "Ticarət Nömrəsi : C 12 004"
+    }
+  },
   "SparePartPage": {
-    "Spares": [
-      {
-        "category": "Hava Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Yağ Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Yağ Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Yağ Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Yağ Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filterləri",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filter İç Elementi",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Xətt Filter İç Elementi",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava-Yağ Separatorları",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava-Yağ Separatorları",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Hava-Yağ Separatorları",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      },
-      {
-        "category": "Separator",
-        "title": "Marka : MANN-FILTER",
-        "description": "Ticarət Nömrəsi : C 12 004"
-      }
-    ],
     "Categories": [
       "Hava Filterləri",
       "Yağ Filterləri",

@@ -6,10 +6,9 @@ import Products from "../src/Pages/Products/Products";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
-import SparePartsPage from "./Pages/SparePart/SparePartsPage";
 import { useTranslation } from "react-i18next";
 import AboutUs from "./Pages/AboutUs/AboutUs";
-import CompanyProfile from "./Components/CompanyProfile/CompanyProfile";
+import SparePartsInPage from "./Pages/SparePart/SpareParts";
 
 export default function App() {
   const [selectedLanguage, setSelectedLanguage] = useState("az");
@@ -69,7 +68,7 @@ export default function App() {
         <Route
           path="/products"
           element={
-            <SparePartsPage
+            <SparePartsInPage
               pagesHamburgerBar={pagesHamburgerBar}
               setPagesHamburgerBar={setPagesHamburgerBar}
               currentLanguage={currentLanguage}
