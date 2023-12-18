@@ -49,7 +49,6 @@ export default function App() {
               partnersRef={refs.partnersRef}
               companyProfileRef={refs.companyProfileRef}
               selectedLanguage={selectedLanguage}
-              setSelectedLanguage={setSelectedLanguage}
               t={t}
             />
           }

@@ -5,7 +5,7 @@ import AllInformations from "../../informations";
 import styles from "./Carousel.module.scss";
 import "./Carousel.css";
 
-function CarouselInPage({ t, selectedLanguage, setSelectedLanguage }) {
+function CarouselInPage({ t, selectedLanguage }) {
   return (
     <>
       {" "}
