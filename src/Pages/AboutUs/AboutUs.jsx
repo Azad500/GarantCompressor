@@ -2,19 +2,16 @@ import { useEffect, useState } from "react";
 import AllInformations from "../../informations";
 import styles from "./AboutUs.module.scss";
 export default function AboutUs({ t }) {
-  const customersData = [
-    AllInformations.AboutUsPage.customerSlider.FiloLogoImage,
-    AllInformations.AboutUsPage.customerSlider.EkomakLogoImage,
-    AllInformations.AboutUsPage.customerSlider.AydinTrafoLogoImage,
-    AllInformations.AboutUsPage.customerSlider.DalgaKiranLogoImage,
-  ];
   const [isPaused, setIsPaused] = useState();
   const handleMouseMove = () => {
     setIsPaused(true);
   };
   const repeatedClientsData = Array.from(
     { length: 20 },
-    (_, index) => customersData[index % customersData.length]
+    (_, index) =>
+      AllInformations.CustomersData[
+        index % AllInformations.CustomersData.length
+      ]
   );
 
   const handleMouseLeave = () => {

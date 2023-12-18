@@ -32,7 +32,7 @@ function CarouselInPage({ t, selectedLanguage, setSelectedLanguage }) {
           )}
           <div className={styles.rightTexts}>
             <p>{t("FirstRightTextInCarousel")}</p>
-            <p>{t("SecondRightTextİnCarousel")}</p>
+            <p>{t("SecondRightTextInCarousel")}</p>
           </div>
         </Carousel.Item>
         <Carousel.Item className={styles.secondImage}>

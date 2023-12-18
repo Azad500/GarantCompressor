@@ -50,6 +50,14 @@ import Separator1 from "./Images/SpareParts/Separators/Separator1.png";
 import Separator2 from "./Images/SpareParts/Separators/Separator2.png";
 import Separator3 from "./Images/SpareParts/Separators/Separator3.png";
 import Separator4 from "./Images/SpareParts/Separators/Separator4.png";
+import AzSementLogo from "./Images/AboutUs/Customers/AzSementLogo.png";
+import EgeHospital from "./Images/AboutUs/Customers/EgeHospital.png";
+import KarmenUnLogo from "./Images/AboutUs/Customers/KarmenUnLogo.png";
+import LorHospitalLogo from "./Images/AboutUs/Customers/LorHospitalLogo.png";
+import MederaHospitalLogo from "./Images/AboutUs/Customers/MederaHospitalLogo.png";
+import MedicalPlaza from "./Images/AboutUs/Customers/MedicalPlaza.png";
+import AnadoluUnLogo from "./Images/AboutUs/Customers/AnadoluUnLogo.png";
+import BakiSenayeZavoduLogo from "./Images/AboutUs/Customers/BakiSenayeZavoduLogo.png";
 
 const AllInformations = {
   Navbar: {
@@ -67,6 +75,16 @@ const AllInformations = {
     LocationInMap:
       "https://www.google.com/maps/place/40%C2%B024'08.7%22N+49%C2%B051'10.4%22E/@40.4024048,49.8503037,17z/data=!3m1!4b1!4m4!3m3!8m2!3d40.4024048!4d49.8528786?hl=tr&entry=ttu",
   },
+  CustomersData: [
+    AnadoluUnLogo,
+    AzSementLogo,
+    EgeHospital,
+    KarmenUnLogo,
+    BakiSenayeZavoduLogo,
+    LorHospitalLogo,
+    MederaHospitalLogo,
+    MedicalPlaza,
+  ],
   SameParts: {
     EkoMakCompressors: Compressors,
     Delivery: DeliveryInTheWorld,

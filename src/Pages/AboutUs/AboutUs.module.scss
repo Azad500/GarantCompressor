@@ -186,18 +186,31 @@
             transform: translateX(-100%);
           }
         }
-        .imageElement {
-          width: 100px;
-          cursor: pointer;
-          transition: 0.5s ease;
-          &:hover {
-            transform: scale(1.1);
+        div {
+          padding: 0 20px;
+          .imageElement {
+            width: 100px;
+            cursor: pointer;
+            transition: 0.5s ease;
+            &:hover {
+              transform: scale(1.1);
+            }
+            @include responsive768 {
+              width: 150px;
+            }
+            @include responsive1200 {
+              width: 200px;
+            }
           }
-          @include responsive768 {
-            width: 150px;
+          &:nth-child(5) {
+            .imageElement {
+              width: 300px;
+            }
           }
-          @include responsive1200 {
-            width: 200px;
+          &:nth-child(13) {
+            .imageElement {
+              width: 300px;
+            }
           }
         }
       }
