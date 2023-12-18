@@ -16,7 +16,7 @@
     .languageonPage {
       font-size: 12px;
       font-weight: 600;
-      color: #ddf2fd;
+      color: white;
       padding-top: 15px;
       @include responsive1024 {
         font-size: 17px;
@@ -28,7 +28,7 @@
       cursor: pointer;
       background-color: transparent;
       font-size: 8px;
-      color: #ddf2fd;
+      color: white;
       @include responsive1024 {
         font-size: 10px;
       }

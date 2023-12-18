@@ -108,7 +108,7 @@
             font-weight: bold;
           }
           p {
-            color: #ddf2fd;
+            color: white;
             font-size: 9px;
             @include responsive400 {
               font-size: 12px;
@@ -148,7 +148,7 @@
                 border-bottom-right-radius: 10px;
               }
               a {
-                color: #ddf2fd;
+                color: white;
                 text-decoration: none;
                 @include responsive400 {
                   font-size: 12px;
@@ -186,7 +186,7 @@
         border-bottom-right-radius: 10px;
         padding: 5px 10px;
         background-color: #164863;
-        color: #ddf2fd;
+        color: white;
       }
     }
     @include responsive400 {

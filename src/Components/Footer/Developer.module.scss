@@ -13,7 +13,7 @@
     }
     p {
       font-size: 10px;
-      color: #ddf2fd;
+      color: white;
       @include responsive500 {
         font-size: 14px;
       }
@@ -24,7 +24,7 @@
       p {
         cursor: pointer;
         font-size: 10px;
-        color: #ddf2fd;
+        color: white;
         @include responsive500 {
           font-size: 14px;
         }

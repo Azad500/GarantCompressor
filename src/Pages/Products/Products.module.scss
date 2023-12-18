@@ -113,7 +113,7 @@
           &:hover {
             background-color: darken(#ddf2fd, 40%);
             transition: 300ms ease-in-out;
-            color: #ddf2fd;
+            color: white;
           }
           &.selected {
             background-color: darken(#ddf2fd, 20%);
@@ -186,7 +186,7 @@
           padding: 10px 5px 0 5px;
           h3 {
             font-size: 14px;
-            color: #ddf2fd;
+            color: white;
             @include responsive450 {
               font-size: 16px;
             }
@@ -200,7 +200,7 @@
           p {
             line-height: 20px;
             font-size: 10px;
-            color: #ddf2fd;
+            color: white;
             @include responsive450 {
               font-size: 12px;
             }
@@ -253,7 +253,7 @@
       }
       p {
         text-align: center;
-        color: #ddf2fd;
+        color: white;
         font-size: 14px;
         @include responsive768 {
           font-size: 16px;
