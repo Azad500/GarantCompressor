@@ -18,246 +18,256 @@
   "DetailedSearchText": "See more >",
   "AboutInProducts": "In addition to the compressors you see above, we buy and deliver any type of compressors directly from the manufacturer. If you do not have the compressor you want in our Products section, you can contact us and get the compressor you want in a short time!",
   "AboutInSpareParts": "In addition to the spare parts you see above, we buy and deliver any type of spare parts directly from the manufacturer. If you don't have the spare part you want in the spare parts section, you can contact us and get the spare part you want in a short time!",
-  "AirCategories": "Air Filters",
-  "OilCategories": "Oil Filters",
-  "LineCategories": "Line Filters",
-  "InFiltersElementCategories": "Line Filter Inner Element",
-  "AirOilFiltersCategories": "Air-Oil Separators",
-  "SeparatorsCategories": "Separator",
-  "AirFiltersTexts": {
-    "Texts1": {
-      "category": "Air Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
+  "SparePartsTexts": {
+    "AirFiltersTexts": {
+      "AirCategories": "Air Filters",
+      "Texts1": {
+        "category": "Air Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts2": {
+        "category": "Air Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts3": {
+        "category": "Air Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts4": {
+        "category": "Air Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts5": {
+        "category": "Air Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      }
     },
-    "Texts2": {
-      "category": "Air Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
+    "OilFiltersTexts": {
+      "OilCategories": "Oil Filters",
+      "Texts1": {
+        "category": "Oil Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts2": {
+        "category": "Oil Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts3": {
+        "category": "Oil Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts4": {
+        "category": "Oil Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      }
     },
-    "Texts3": {
-      "category": "Air Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
+    "LineFiltersTexts": {
+      "LineCategories": "Line Filters",
+      "Texts1": {
+        "category": "Line Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Line Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Line Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts4": {
+        "category": "Line Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts5": {
+        "category": "Line Filters",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
     },
-    "Texts4": {
-      "category": "Air Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
+    "InFiltersElementTexts": {
+      "InFiltersElementCategories": "Line Filter Inner Element",
+      "Texts1": {
+        "category": "Line Filter Inner Element",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts2": {
+        "category": "Line Filter Inner Element",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      }
     },
-    "Texts5": {
-      "category": "Air Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
+    "AirOilFiltersTexts": {
+      "AirOilFiltersCategories": "Air-Oil Separators",
+      "Texts1": {
+        "category": "Air-Oil Separators",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts2": {
+        "category": "Air-Oil Separators",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts3": {
+        "category": "Air-Oil Separators",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      }
+    },
+    "SeparatorsTexts": {
+      "SeparatorsCategories": "Separator",
+      "Texts1": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts2": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts3": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      },
+      "Texts4": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Trading Number : C 12 004"
+      }
+    },
+    "SparePartPage": {
+      "Categories": [
+        "Air Filters",
+        "Oil Filters",
+        "Line Filters",
+        "Line Filter Inner Element",
+        "Air-Oil Separators",
+        "Separator"
+      ]
     }
   },
-  "OilFiltersTexts": {
-    "Texts1": {
-      "category": "Oil Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts2": {
-      "category": "Oil Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts3": {
-      "category": "Oil Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts4": {
-      "category": "Oil Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    }
-  },
-  "LineFiltersTexts": {
-    "Texts1": {
-      "category": "Line Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Line Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts3": {
-      "category": "Line Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts4": {
-      "category": "Line Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts5": {
-      "category": "Line Filters",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "InFiltersElementTexts": {
-    "Texts1": {
-      "category": "Line Filter Inner Element",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts2": {
-      "category": "Line Filter Inner Element",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    }
-  },
-  "AirOilFiltersTexts": {
-    "Texts1": {
-      "category": "Air-Oil Separators",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts2": {
-      "category": "Air-Oil Separators",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts3": {
-      "category": "Air-Oil Separators",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    }
-  },
-  "SeparatorsTexts": {
-    "Texts1": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts2": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts3": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    },
-    "Texts4": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Trading Number : C 12 004"
-    }
-  },
-  "SparePartPage": {
-    "Categories": [
-      "Air Filters",
-      "Oil Filters",
-      "Line Filters",
-      "Line Filter Inner Element",
-      "Air-Oil Separators",
-      "Separator"
-    ]
-  },
-  "ProductsPart": {
-    "Products": [
-      {
-        "categories": "Lorem 3",
+  "ProductsPartTexts": {
+    "CompressorType1": {
+      "CompressorType1Categories": "CompressorType1",
+      "Text1": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 1",
+      "Text2": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 2",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 1",
+      "Text3": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 3",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 2",
+      }
+    },
+    "CompressorType2": {
+      "CompressorType2Categories": "CompressorType2",
+      "Text1": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 4",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 2",
+      "Text2": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 5",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 3",
+      "Text3": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 6",
-        "workingPower": "Working power: 34.6-522[kw]",
-        "freeAirDelivery": "Working power: 34.6-522[kw]",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 4",
+      }
+    },
+    "CompressorType3": {
+      "CompressorType3Categories": "CompressorType3",
+      "Text1": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 7",
-        "workingPower": "Working power: 34.6-522[kw]",
-        "freeAirDelivery": "Working power: 34.6-522[kw]",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 5",
+      "Text2": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 8",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 6",
+      "Text3": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 9",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 7",
+      }
+    },
+    "CompressorType4": {
+      "CompressorType4Categories": "CompressorType4",
+      "Text1": {
+        "category": "CompressorType4",
         "title": "Diesel Portable Air Compressor 10",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 8",
+      "Text2": {
+        "category": "CompressorType4",
         "title": "Diesel Portable Air Compressor 11",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType4",
+        "title": "Diesel Portable Air Compressor 12",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
       }
-    ],
-    "Categories": [
-      "Lorem 1",
-      "Lorem 2",
-      "Lorem 3",
-      "Lorem 4",
-      "Lorem 5",
-      "Lorem 6",
-      "Lorem 7",
-      "Lorem 8"
-    ]
+    },
+    "ProductsParts": {
+      "Categories": [
+        "CompressorType1",
+        "CompressorType2",
+        "CompressorType3",
+        "CompressorType4"
+      ]
+    }
   },
   "CompressorsAndTexts": {
     "FirstCompressor": {

@@ -18,246 +18,256 @@
   "DetailedSearchText": "Узнать больше >",
   "AboutInProducts": "Помимо компрессоров, которые вы видите выше, мы покупаем и доставляем компрессоры любого типа напрямую от производителя. Если у вас нет нужного вам компрессора в разделе «Продукция», вы можете связаться с нами и получить компрессор, который вам нужен. хочу в короткие сроки!",
   "AboutInSpareParts": "Помимо запчастей, которые вы видите выше, мы покупаем и доставляем любые запасные части напрямую от производителя. Если у вас нет нужной запчасти в разделе запасных частей, вы можете связаться с нами и получить нужную запчасть в короткие сроки!",
-  "AirCategories": "Воздушные фильтры",
-  "OilCategories": "Масляные фильтры",
-  "LineCategories": "Линейные фильтры",
-  "InFiltersElementCategories": "Внутренний элемент линейного фильтра",
-  "AirOilFiltersCategories": "Воздушно-масляные сепараторы",
-  "SeparatorsCategories": "Разделитель",
-  "AirFiltersTexts": {
-    "Texts1": {
-      "category": "Воздушные фильтры",
-      "title": "Марка : MANN-FILTER 1",
-      "description": "Торговый номер : C 12 004"
+  "SparePartsTexts": {
+    "AirFiltersTexts": {
+      "AirCategories": "Воздушные фильтры",
+      "Texts1": {
+        "category": "Воздушные фильтры",
+        "title": "Марка : MANN-FILTER 1",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts2": {
+        "category": "Воздушные фильтры",
+        "title": "Марка : MANN-FILTER 2",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts3": {
+        "category": "Воздушные фильтры",
+        "title": "Марка : MANN-FILTER 3",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts4": {
+        "category": "Воздушные фильтры",
+        "title": "Марка : MANN-FILTER 4",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts5": {
+        "category": "Воздушные фильтры",
+        "title": "Марка : MANN-FILTER 5",
+        "description": "Торговый номер : C 12 004"
+      }
     },
-    "Texts2": {
-      "category": "Воздушные фильтры",
-      "title": "Марка : MANN-FILTER 2",
-      "description": "Торговый номер : C 12 004"
+    "OilFiltersTexts": {
+      "OilCategories": "Масляные фильтры",
+      "Texts1": {
+        "category": "Масляные фильтры",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts2": {
+        "category": "Масляные фильтры",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts3": {
+        "category": "Масляные фильтры",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts4": {
+        "category": "Масляные фильтры",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      }
     },
-    "Texts3": {
-      "category": "Воздушные фильтры",
-      "title": "Марка : MANN-FILTER 3",
-      "description": "Торговый номер : C 12 004"
+    "LineFiltersTexts": {
+      "LineCategories": "Линейные фильтры",
+      "Texts1": {
+        "category": "Линейные фильтры",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Линейные фильтры",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Линейные фильтры",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts4": {
+        "category": "Линейные фильтры",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts5": {
+        "category": "Линейные фильтры",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
     },
-    "Texts4": {
-      "category": "Воздушные фильтры",
-      "title": "Марка : MANN-FILTER 4",
-      "description": "Торговый номер : C 12 004"
+    "InFiltersElementTexts": {
+      "InFiltersElementCategories": "Внутренний элемент линейного фильтра",
+      "Texts1": {
+        "category": "Внутренний элемент линейного фильтра",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts2": {
+        "category": "Внутренний элемент линейного фильтра",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      }
     },
-    "Texts5": {
-      "category": "Воздушные фильтры",
-      "title": "Марка : MANN-FILTER 5",
-      "description": "Торговый номер : C 12 004"
+    "AirOilFiltersTexts": {
+      "AirOilFiltersCategories": "Воздушно-масляные сепараторы",
+      "Texts1": {
+        "category": "Воздушно-масляные сепараторы",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts2": {
+        "category": "Воздушно-масляные сепараторы",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts3": {
+        "category": "Воздушно-масляные сепараторы",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      }
+    },
+    "SeparatorsTexts": {
+      "SeparatorsCategories": "Разделитель",
+      "Texts1": {
+        "category": "Разделитель",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts2": {
+        "category": "Разделитель",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts3": {
+        "category": "Разделитель",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      },
+      "Texts4": {
+        "category": "Разделитель",
+        "title": "Марка : MANN-FILTER",
+        "description": "Торговый номер : C 12 004"
+      }
+    },
+    "SparePartPage": {
+      "Categories": [
+        "Воздушные фильтры",
+        "Масляные фильтры",
+        "Линейные фильтры",
+        "Внутренний элемент линейного фильтра",
+        "Воздушно-масляные сепараторы",
+        "Разделитель"
+      ]
     }
   },
-  "OilFiltersTexts": {
-    "Texts1": {
-      "category": "Масляные фильтры",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts2": {
-      "category": "Масляные фильтры",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts3": {
-      "category": "Масляные фильтры",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts4": {
-      "category": "Масляные фильтры",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    }
-  },
-  "LineFiltersTexts": {
-    "Texts1": {
-      "category": "Линейные фильтры",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Линейные фильтры",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts3": {
-      "category": "Линейные фильтры",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts4": {
-      "category": "Линейные фильтры",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts5": {
-      "category": "Линейные фильтры",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "InFiltersElementTexts": {
-    "Texts1": {
-      "category": "Внутренний элемент линейного фильтра",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts2": {
-      "category": "Внутренний элемент линейного фильтра",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    }
-  },
-  "AirOilFiltersTexts": {
-    "Texts1": {
-      "category": "Воздушно-масляные сепараторы",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts2": {
-      "category": "Воздушно-масляные сепараторы",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts3": {
-      "category": "Воздушно-масляные сепараторы",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    }
-  },
-  "SeparatorsTexts": {
-    "Texts1": {
-      "category": "Разделитель",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts2": {
-      "category": "Разделитель",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts3": {
-      "category": "Разделитель",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    },
-    "Texts4": {
-      "category": "Разделитель",
-      "title": "Марка : MANN-FILTER",
-      "description": "Торговый номер : C 12 004"
-    }
-  },
-  "SparePartPage": {
-    "Categories": [
-      "Воздушные фильтры",
-      "Масляные фильтры",
-      "Линейные фильтры",
-      "Внутренний элемент линейного фильтра",
-      "Воздушно-масляные сепараторы",
-      "Разделитель"
-    ]
-  },
-  "ProductsPart": {
-    "Products": [
-      {
-        "categories": "Lorem 3",
+  "ProductsPartTexts": {
+    "CompressorType1": {
+      "CompressorType1Categories": "CompressorType1",
+      "Text1": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 1",
+      "Text2": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 2",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 1",
+      "Text3": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 3",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 2",
+      }
+    },
+    "CompressorType2": {
+      "CompressorType2Categories": "CompressorType2",
+      "Text1": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 4",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 2",
+      "Text2": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 5",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 3",
+      "Text3": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 6",
-        "workingPower": "Working power: 34.6-522[kw]",
-        "freeAirDelivery": "Working power: 34.6-522[kw]",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 4",
+      }
+    },
+    "CompressorType3": {
+      "CompressorType3Categories": "CompressorType3",
+      "Text1": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 7",
-        "workingPower": "Working power: 34.6-522[kw]",
-        "freeAirDelivery": "Working power: 34.6-522[kw]",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 5",
+      "Text2": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 8",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 6",
+      "Text3": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 9",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 7",
+      }
+    },
+    "CompressorType4": {
+      "CompressorType4Categories": "CompressorType4",
+      "Text1": {
+        "category": "CompressorType4",
         "title": "Diesel Portable Air Compressor 10",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 8",
+      "Text2": {
+        "category": "CompressorType4",
         "title": "Diesel Portable Air Compressor 11",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType4",
+        "title": "Diesel Portable Air Compressor 12",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
       }
-    ],
-    "Categories": [
-      "Lorem 1",
-      "Lorem 2",
-      "Lorem 3",
-      "Lorem 4",
-      "Lorem 5",
-      "Lorem 6",
-      "Lorem 7",
-      "Lorem 8"
-    ]
+    },
+    "ProductsPart": {
+      "Categories": [
+        "CompressorType1",
+        "CompressorType2",
+        "CompressorType3",
+        "CompressorType4"
+      ]
+    }
   },
   "CompressorsAndTexts": {
     "FirstCompressor": {

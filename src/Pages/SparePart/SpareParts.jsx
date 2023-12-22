@@ -26,173 +26,183 @@ export default function SparePartsInPage({
 
   useEffect(() => {
     const categoryExists =
-      data.SparePartPage.Categories.includes(selectedCategory);
+      data.SparePartsTexts.SparePartPage.Categories.includes(selectedCategory);
     if (!categoryExists) {
-      setSelectedCategory(data.SparePartPage.Categories[0]);
+      setSelectedCategory(data.SparePartsTexts.SparePartPage.Categories[0]);
     }
     window.scrollTo(0, 0);
   }, [data]);
 
-  const airCategories = t("AirCategories");
-  const oilCategories = t("OilCategories");
-  const lineCategories = t("LineCategories");
-  const inFiltersElementCategories = t("InFiltersElementCategories");
-  const airOilFiltersCategories = t("AirOilFiltersCategories");
-  const separatorsCategories = t("SeparatorsCategories");
+  const airCategories = t("SparePartsTexts.AirFiltersTexts.AirCategories");
+  const oilCategories = t("SparePartsTexts.OilFiltersTexts.OilCategories");
+  const lineCategories = t("SparePartsTexts.LineFiltersTexts.LineCategories");
+  const inFiltersElementCategories = t(
+    "SparePartsTexts.InFiltersElementTexts.InFiltersElementCategories"
+  );
+  const airOilFiltersCategories = t(
+    "SparePartsTexts.AirOilFiltersTexts.AirOilFiltersCategories"
+  );
+  const separatorsCategories = t(
+    "SparePartsTexts.SeparatorsTexts.SeparatorsCategories"
+  );
 
   const airFiltersInfo = [
     {
-      category: t("AirFiltersTexts.Texts1.category"),
-      image: AllInformations.AirFilters.AirFilter1,
-      title: t("AirFiltersTexts.Texts1.title"),
-      description: t("AirFiltersTexts.Texts1.description"),
+      category: t("SparePartsTexts.AirFiltersTexts.Texts1.category"),
+      image: AllInformations.SparePartsImages.AirFilters.AirFilter1,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts1.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts1.description"),
     },
     {
-      category: t("AirFiltersTexts.Texts2.category"),
-      image: AllInformations.AirFilters.AirFilter2,
-      title: t("AirFiltersTexts.Texts2.title"),
-      description: t("AirFiltersTexts.Texts2.description"),
+      category: t("SparePartsTexts.AirFiltersTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.AirFilters.AirFilter2,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts2.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts2.description"),
     },
     {
-      category: t("AirFiltersTexts.Texts3.category"),
-      image: AllInformations.AirFilters.AirFilter3,
-      title: t("AirFiltersTexts.Texts3.title"),
-      description: t("AirFiltersTexts.Texts3.description"),
+      category: t("SparePartsTexts.AirFiltersTexts.Texts3.category"),
+      image: AllInformations.SparePartsImages.AirFilters.AirFilter3,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts3.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts3.description"),
     },
     {
-      category: t("AirFiltersTexts.Texts4.category"),
-      image: AllInformations.AirFilters.AirFilter4,
-      title: t("AirFiltersTexts.Texts1.title"),
-      description: t("AirFiltersTexts.Texts4.description"),
+      category: t("SparePartsTexts.AirFiltersTexts.Texts4.category"),
+      image: AllInformations.SparePartsImages.AirFilters.AirFilter4,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts1.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts4.description"),
     },
     {
-      category: t("AirFiltersTexts.Texts5.category"),
-      image: AllInformations.AirFilters.AirFilter5,
-      title: t("AirFiltersTexts.Texts5.title"),
-      description: t("AirFiltersTexts.Texts5.description"),
+      category: t("SparePartsTexts.AirFiltersTexts.Texts5.category"),
+      image: AllInformations.SparePartsImages.AirFilters.AirFilter5,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts5.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts5.description"),
     },
   ];
 
   const oilFiltersInfo = [
     {
-      category: t("OilFiltersTexts.Texts1.category"),
-      image: AllInformations.YFilters.YFilter1,
-      title: t("AirFiltersTexts.Texts1.title"),
-      description: t("AirFiltersTexts.Texts1.description"),
+      category: t("SparePartsTexts.OilFiltersTexts.Texts1.category"),
+      image: AllInformations.SparePartsImages.YFilters.YFilter1,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts1.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts1.description"),
     },
     {
-      category: t("OilFiltersTexts.Texts2.category"),
-      image: AllInformations.YFilters.YFilter2,
-      title: t("AirFiltersTexts.Texts2.title"),
-      description: t("AirFiltersTexts.Texts2.description"),
+      category: t("SparePartsTexts.OilFiltersTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.YFilters.YFilter2,
+      title: t("SparePartsTexts.AirFiltersTexts.Texts2.title"),
+      description: t("SparePartsTexts.AirFiltersTexts.Texts2.description"),
     },
     {
-      category: t("OilFiltersTexts.Texts3.category"),
-      image: AllInformations.YFilters.YFilter3,
-      title: t("OilFiltersTexts.Texts3.title"),
-      description: t("OilFiltersTexts.Texts3.description"),
+      category: t("SparePartsTexts.OilFiltersTexts.Texts3.category"),
+      image: AllInformations.SparePartsImages.YFilters.YFilter3,
+      title: t("SparePartsTexts.OilFiltersTexts.Texts3.title"),
+      description: t("SparePartsTexts.OilFiltersTexts.Texts3.description"),
     },
     {
-      category: t("OilFiltersTexts.Texts4.category"),
-      image: AllInformations.YFilters.YFilter4,
-      title: t("OilFiltersTexts.Texts1.title"),
-      description: t("OilFiltersTexts.Texts4.description"),
+      category: t("SparePartsTexts.OilFiltersTexts.Texts4.category"),
+      image: AllInformations.SparePartsImages.YFilters.YFilter4,
+      title: t("SparePartsTexts.OilFiltersTexts.Texts1.title"),
+      description: t("SparePartsTexts.OilFiltersTexts.Texts4.description"),
     },
   ];
 
   const lineFiltersInfo = [
     {
-      category: t("LineFiltersTexts.Texts1.category"),
-      image: AllInformations.YTXFilters.YTXFilter1,
-      title: t("LineFiltersTexts.Texts1.title"),
-      description: t("LineFiltersTexts.Texts1.description"),
+      category: t("SparePartsTexts.LineFiltersTexts.Texts1.category"),
+      image: AllInformations.SparePartsImages.YTXFilters.YTXFilter1,
+      title: t("SparePartsTexts.LineFiltersTexts.Texts1.title"),
+      description: t("SparePartsTexts.LineFiltersTexts.Texts1.description"),
     },
     {
-      category: t("LineFiltersTexts.Texts2.category"),
-      image: AllInformations.YTXFilters.YTXFilter2,
-      title: t("LineFiltersTexts.Texts2.title"),
-      description: t("LineFiltersTexts.Texts2.description"),
+      category: t("SparePartsTexts.LineFiltersTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.YTXFilters.YTXFilter2,
+      title: t("SparePartsTexts.LineFiltersTexts.Texts2.title"),
+      description: t("SparePartsTexts.LineFiltersTexts.Texts2.description"),
     },
     {
-      category: t("LineFiltersTexts.Texts3.category"),
-      image: AllInformations.YTXFilters.YTXFilter3,
-      title: t("LineFiltersTexts.Texts3.title"),
-      description: t("LineFiltersTexts.Texts3.description"),
+      category: t("SparePartsTexts.LineFiltersTexts.Texts3.category"),
+      image: AllInformations.SparePartsImages.YTXFilters.YTXFilter3,
+      title: t("SparePartsTexts.LineFiltersTexts.Texts3.title"),
+      description: t("SparePartsTexts.LineFiltersTexts.Texts3.description"),
     },
     {
-      category: t("LineFiltersTexts.Texts4.category"),
-      image: AllInformations.YTXFilters.YTXFilter4,
-      title: t("LineFiltersTexts.Texts4.title"),
-      description: t("LineFiltersTexts.Texts4.description"),
+      category: t("SparePartsTexts.LineFiltersTexts.Texts4.category"),
+      image: AllInformations.SparePartsImages.YTXFilters.YTXFilter4,
+      title: t("SparePartsTexts.LineFiltersTexts.Texts4.title"),
+      description: t("SparePartsTexts.LineFiltersTexts.Texts4.description"),
     },
     {
-      category: t("LineFiltersTexts.Texts5.category"),
-      image: AllInformations.YTXFilters.YTXFilter5,
-      title: t("LineFiltersTexts.Texts5.title"),
-      description: t("LineFiltersTexts.Texts5.description"),
+      category: t("SparePartsTexts.LineFiltersTexts.Texts5.category"),
+      image: AllInformations.SparePartsImages.YTXFilters.YTXFilter5,
+      title: t("SparePartsTexts.LineFiltersTexts.Texts5.title"),
+      description: t("SparePartsTexts.LineFiltersTexts.Texts5.description"),
     },
   ];
 
   const inFiltersElementInfo = [
     {
-      category: t("InFiltersElementTexts.Texts1.category"),
-      image: AllInformations.XFIEFilters.XFIE1,
-      title: t("InFiltersElementTexts.Texts1.title"),
-      description: t("InFiltersElementTexts.Texts1.description"),
+      category: t("SparePartsTexts.InFiltersElementTexts.Texts1.category"),
+      image: AllInformations.SparePartsImages.XFIEFilters.XFIE1,
+      title: t("SparePartsTexts.InFiltersElementTexts.Texts1.title"),
+      description: t(
+        "SparePartsTexts.InFiltersElementTexts.Texts1.description"
+      ),
     },
     {
-      category: t("InFiltersElementTexts.Texts2.category"),
-      image: AllInformations.XFIEFilters.XFIE2,
-      title: t("InFiltersElementTexts.Texts2.title"),
-      description: t("InFiltersElementTexts.Texts2.description"),
+      category: t("SparePartsTexts.InFiltersElementTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.XFIEFilters.XFIE2,
+      title: t("SparePartsTexts.InFiltersElementTexts.Texts2.title"),
+      description: t(
+        "SparePartsTexts.InFiltersElementTexts.Texts2.description"
+      ),
     },
   ];
 
   const AirOilFiltersInfo = [
     {
-      category: t("AirOilFiltersTexts.Texts1.category"),
-      image: AllInformations.AirOilFilters.AirOilSeparator1,
-      title: t("AirOilFiltersTexts.Texts1.title"),
-      description: t("AirOilFiltersTexts.Texts1.description"),
+      category: t("SparePartsTexts.AirOilFiltersTexts.Texts1.category"),
+      image: AllInformations.SparePartsImages.AirOilFilters.AirOilSeparator1,
+      title: t("SparePartsTexts.AirOilFiltersTexts.Texts1.title"),
+      description: t("SparePartsTexts.AirOilFiltersTexts.Texts1.description"),
     },
     {
-      category: t("AirOilFiltersTexts.Texts2.category"),
-      image: AllInformations.AirOilFilters.AirOilSeparator1,
-      title: t("AirOilFiltersTexts.Texts2.title"),
-      description: t("AirOilFiltersTexts.Texts2.description"),
+      category: t("SparePartsTexts.AirOilFiltersTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.AirOilFilters.AirOilSeparator1,
+      title: t("SparePartsTexts.AirOilFiltersTexts.Texts2.title"),
+      description: t("SparePartsTexts.AirOilFiltersTexts.Texts2.description"),
     },
     {
-      category: t("AirOilFiltersTexts.Texts2.category"),
-      image: AllInformations.AirOilFilters.AirOilSeparator1,
-      title: t("AirOilFiltersTexts.Texts3.title"),
-      description: t("AirOilFiltersTexts.Texts3.description"),
+      category: t("SparePartsTexts.AirOilFiltersTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.AirOilFilters.AirOilSeparator1,
+      title: t("SparePartsTexts.AirOilFiltersTexts.Texts3.title"),
+      description: t("SparePartsTexts.AirOilFiltersTexts.Texts3.description"),
     },
   ];
 
   const SeparatorsInfo = [
     {
-      category: t("SeparatorsTexts.Texts1.category"),
-      image: AllInformations.SeparatorsFilters.Separator1,
-      title: t("SeparatorsTexts.Texts1.title"),
-      description: t("SeparatorsTexts.Texts1.description"),
+      category: t("SparePartsTexts.SeparatorsTexts.Texts1.category"),
+      image: AllInformations.SparePartsImages.SeparatorsFilters.Separator1,
+      title: t("SparePartsTexts.SeparatorsTexts.Texts1.title"),
+      description: t("SparePartsTexts.SeparatorsTexts.Texts1.description"),
     },
     {
-      category: t("SeparatorsTexts.Texts2.category"),
-      image: AllInformations.SeparatorsFilters.Separator2,
-      title: t("SeparatorsTexts.Texts2.title"),
-      description: t("SeparatorsTexts.Texts2.description"),
+      category: t("SparePartsTexts.SeparatorsTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.SeparatorsFilters.Separator2,
+      title: t("SparePartsTexts.SeparatorsTexts.Texts2.title"),
+      description: t("SparePartsTexts.SeparatorsTexts.Texts2.description"),
     },
     {
-      category: t("SeparatorsTexts.Texts2.category"),
-      image: AllInformations.SeparatorsFilters.Separator3,
-      title: t("SeparatorsTexts.Texts3.title"),
-      description: t("SeparatorsTexts.Texts3.description"),
+      category: t("SparePartsTexts.SeparatorsTexts.Texts2.category"),
+      image: AllInformations.SparePartsImages.SeparatorsFilters.Separator3,
+      title: t("SparePartsTexts.SeparatorsTexts.Texts3.title"),
+      description: t("SparePartsTexts.SeparatorsTexts.Texts3.description"),
     },
     {
-      category: t("SeparatorsTexts.Texts4.category"),
-      image: AllInformations.SeparatorsFilters.Separator4,
-      title: t("SeparatorsTexts.Texts4.title"),
-      description: t("SeparatorsTexts.Texts4.description"),
+      category: t("SparePartsTexts.SeparatorsTexts.Texts4.category"),
+      image: AllInformations.SparePartsImages.SeparatorsFilters.Separator4,
+      title: t("SparePartsTexts.SeparatorsTexts.Texts4.title"),
+      description: t("SparePartsTexts.SeparatorsTexts.Texts4.description"),
     },
   ];
 
@@ -206,33 +216,37 @@ export default function SparePartsInPage({
         >
           <h2>{t("SpareParts")}</h2>
           <ul>
-            {data.SparePartPage.Categories.map((category, index) => (
-              <li
-                key={index}
-                onClick={() => handleCategoryClick(category)}
-                className={`${
-                  selectedCategory === category ? styles.selected : ""
-                }`}
-              >
-                {category}
-              </li>
-            ))}
+            {data.SparePartsTexts.SparePartPage.Categories.map(
+              (category, index) => (
+                <li
+                  key={index}
+                  onClick={() => handleCategoryClick(category)}
+                  className={`${
+                    selectedCategory === category ? styles.selected : ""
+                  }`}
+                >
+                  {category}
+                </li>
+              )
+            )}
           </ul>
         </div>
         <div className={styles.leftAsideDesktop}>
           <h2>{t("SpareParts")}</h2>
           <ul>
-            {data.SparePartPage.Categories.map((category, index) => (
-              <li
-                key={index}
-                onClick={() => handleCategoryClick(category)}
-                className={`${
-                  selectedCategory === category ? styles.selected : ""
-                }`}
-              >
-                {category}
-              </li>
-            ))}
+            {data.SparePartsTexts.SparePartPage.Categories.map(
+              (category, index) => (
+                <li
+                  key={index}
+                  onClick={() => handleCategoryClick(category)}
+                  className={`${
+                    selectedCategory === category ? styles.selected : ""
+                  }`}
+                >
+                  {category}
+                </li>
+              )
+            )}
           </ul>
         </div>
         <div className={styles.cardsContainer}>

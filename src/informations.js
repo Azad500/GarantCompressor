@@ -22,11 +22,11 @@ import AzLogo from "./Images/Navbar/AzCompanyLogo.png";
 import EnLogo from "./Images/Navbar/EnCompanyLogo.png";
 import RuLogo from "./Images/Navbar/RuCompanyLogo.png";
 import ProductsImage1 from "./Images/Products/AirCompressor.png";
-import ProductsImage3 from "./Images/Products/DieselAirCompressor.png";
-import ProductsImage4 from "./Images/Products/DryAirCompressor.png";
-import ProductsImage5 from "./Images/Products/EnergyAirCompressor.png";
-import ProductsImage6 from "./Images/Products/ScrewAirCompressor.png";
-import ProductsImage7 from "./Images/Products/ScrewCompressor.png";
+import ProductsImage2 from "./Images/Products/DieselAirCompressor.png";
+import ProductsImage3 from "./Images/Products/DryAirCompressor.png";
+import ProductsImage4 from "./Images/Products/EnergyAirCompressor.png";
+import ProductsImage5 from "./Images/Products/ScrewAirCompressor.png";
+import ProductsImage6 from "./Images/Products/ScrewCompressor.png";
 import AirFilter1 from "./Images/SpareParts/AirFilter/AirFilter1.png";
 import AirFilter2 from "./Images/SpareParts/AirFilter/AirFilter2.png";
 import AirFilter3 from "./Images/SpareParts/AirFilter/AirFilter3.png";
@@ -113,51 +113,67 @@ const AllInformations = {
   Products: {
     CompressorInProduct: CompressorInProduct,
   },
-  ProductsImages: [
-    ProductsImage1,
-    ProductsImage3,
-    ProductsImage4,
-    ProductsImage5,
-    ProductsImage6,
-    ProductsImage7,
-  ],
-  AirFilters: {
-    AirFilter1: AirFilter1,
-    AirFilter2: AirFilter2,
-    AirFilter3: AirFilter3,
-    AirFilter4: AirFilter4,
-    AirFilter5: AirFilter5,
-  },
-  YFilters: {
-    YFilter1: YFilter1,
-    YFilter2: YFilter2,
-    YFilter3: YFilter3,
-    YFilter4: YFilter4,
-  },
-  YTXFilters: {
-    YTXFilter1: YTXFilter1,
-    YTXFilter2: YTXFilter2,
-    YTXFilter3: YTXFilter3,
-    YTXFilter4: YTXFilter4,
-    YTXFilter5: YTXFilter5,
-  },
-  XFIEFilters: {
-    XFIE1: XFIE1,
-    XFIE2: XFIE2,
-  },
-  AirOilFilters: {
-    AirOilSeparator1: AirOilSeparator1,
-    AirOilSeparator2: AirOilSeparator2,
-    AirOilSeparator3: AirOilSeparator3,
-  },
-  SeparatorsFilters: {
-    Separator1: Separator1,
-    Separator2: Separator2,
-    Separator3: Separator3,
-    Separator4: Separator4,
-  },
   SpareParts: {
     SparePartsImage: SparePartsImage,
+  },
+  ProductsImages: {
+    CompressorType1: {
+      ProductsImage1: ProductsImage1,
+      ProductsImage2: ProductsImage2,
+      ProductsImage3: ProductsImage3,
+    },
+    CompressorType2: {
+      ProductsImage4: ProductsImage4,
+      ProductsImage5: ProductsImage5,
+      ProductsImage6: ProductsImage6,
+    },
+    CompressorType3: {
+      ProductsImage1: ProductsImage1,
+      ProductsImage3: ProductsImage3,
+      ProductsImage5: ProductsImage5,
+    },
+    CompressorType4: {
+      ProductsImage2: ProductsImage2,
+      ProductsImage4: ProductsImage4,
+      ProductsImage6: ProductsImage6,
+    },
+  },
+  SparePartsImages: {
+    AirFilters: {
+      AirFilter1: AirFilter1,
+      AirFilter2: AirFilter2,
+      AirFilter3: AirFilter3,
+      AirFilter4: AirFilter4,
+      AirFilter5: AirFilter5,
+    },
+    YFilters: {
+      YFilter1: YFilter1,
+      YFilter2: YFilter2,
+      YFilter3: YFilter3,
+      YFilter4: YFilter4,
+    },
+    YTXFilters: {
+      YTXFilter1: YTXFilter1,
+      YTXFilter2: YTXFilter2,
+      YTXFilter3: YTXFilter3,
+      YTXFilter4: YTXFilter4,
+      YTXFilter5: YTXFilter5,
+    },
+    XFIEFilters: {
+      XFIE1: XFIE1,
+      XFIE2: XFIE2,
+    },
+    AirOilFilters: {
+      AirOilSeparator1: AirOilSeparator1,
+      AirOilSeparator2: AirOilSeparator2,
+      AirOilSeparator3: AirOilSeparator3,
+    },
+    SeparatorsFilters: {
+      Separator1: Separator1,
+      Separator2: Separator2,
+      Separator3: Separator3,
+      Separator4: Separator4,
+    },
   },
   AboutUsPage: {
     customerSlider: {

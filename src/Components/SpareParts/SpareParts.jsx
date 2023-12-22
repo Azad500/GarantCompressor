@@ -24,7 +24,10 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartFirst.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  <Link to="/products"> {t("DetailedSearchText")}</Link>
+                  <Link className={styles.link} to="/products">
+                    {" "}
+                    {t("DetailedSearchText")}
+                  </Link>
                 </button>
               </div>
             </div>
@@ -43,7 +46,10 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartSecond.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  <Link to="/products"> {t("DetailedSearchText")}</Link>
+                  <Link className={styles.link} to="/products">
+                    {" "}
+                    {t("DetailedSearchText")}
+                  </Link>
                 </button>
               </div>
             </div>
@@ -65,7 +71,10 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartThird.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  <Link to="/products"> {t("DetailedSearchText")}</Link>
+                  <Link className={styles.link} to="/products">
+                    {" "}
+                    {t("DetailedSearchText")}
+                  </Link>
                 </button>
               </div>
             </div>
@@ -84,7 +93,10 @@ export default function SpareParts({ sparePartsRef, t }) {
               <p>{t("SparePart.SparePartFourth.SparePartText2")}</p>
               <div className={styles.buttonElement}>
                 <button className={styles.sparePartButton}>
-                  <Link to="/products"> {t("DetailedSearchText")}</Link>
+                  <Link className={styles.link} to="/products">
+                    {" "}
+                    {t("DetailedSearchText")}
+                  </Link>
                 </button>
               </div>
             </div>

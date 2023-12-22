@@ -135,45 +135,45 @@
       }
       .cardItem {
         width: 280px;
-        height: 350px;
+        height: 400px;
         margin: 0 auto;
         border: 1px solid #164863;
         border-radius: 10px;
         background-color: #164863;
         @include responsive450 {
           width: 350px;
-          height: 410px;
+          height: 460px;
         }
         @include responsive550 {
           width: 450px;
-          height: 490px;
+          height: 540px;
         }
         @include responsive768 {
           width: 280px;
-          height: 400px;
+          height: 450px;
         }
         @include responsive900 {
           width: 300px;
-          height: 390px;
+          height: 450px;
         }
         @include responsive1000 {
           width: 370px;
-          height: 440px;
+          height: 490px;
         }
         @include responsive1024 {
           width: 250px;
-          height: 370px;
+          height: 420px;
         }
         @include responsive1200 {
           width: 300px;
-          height: 430px;
+          height: 480px;
         }
         @include responsive1400 {
-          width: 330px;
+          width: 380px;
         }
         @include responsive1500 {
           width: 350px;
-          height: 440px;
+          height: 490px;
         }
         img {
           width: 100%;

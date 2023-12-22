@@ -18,237 +18,256 @@
   "DetailedSearchText": "Ətraflı Bax >",
   "AboutInProducts": "Yuxarıda gördüyünüz Kompressorlarla yanaşı istənilən növ kompressorların birbaşa istehsalçıdan alınıb çatdırılmasını həyata keçiririk. Əgər Məhsullarımız bölməsində olan kompressorların içərisində istədiyiniz kompressor yoxdursa, bizimlə əlaqə saxlayıb, qısa müddət ərzində istədiyiniz kompressoru əldə edə bilərsiniz!",
   "AboutInSpareParts": "Yuxarıda gördüyünüz Ehtiyat hissələri ilə yanaşı istənilən növ ehtiyat hissələrinin birbaşa istehsalçıdan alınıb çatdırılmasını həyata keçiririk. Əgər Ehtiyat hissələri bölməsində olan ehtiyat hissələrinin içərisində istədiyiniz ehtiyat hissəsi yoxdursa, bizimlə əlaqə saxlayıb, qısa müddət ərzində istədiyiniz ehtiyat hissəsini əldə edə bilərsiniz!",
-  "AirCategories": "Hava Filterləri",
-  "OilCategories": "Yağ Filterləri",
-  "LineCategories": "Xətt Filterləri",
-  "InFiltersElementCategories": "Xətt Filter İç Elementi",
-  "AirOilFiltersCategories": "Hava-Yağ Separatorları",
-  "SeparatorsCategories": "Separator",
-  "AirFiltersTexts": {
-    "Texts1": {
-      "category": "Hava Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
+  "SparePartsTexts": {
+    "AirFiltersTexts": {
+      "AirCategories": "Hava Filterləri",
+      "Texts1": {
+        "category": "Hava Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Hava Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Hava Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts4": {
+        "category": "Hava Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts5": {
+        "category": "Hava Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
     },
-    "Texts2": {
-      "category": "Hava Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
+    "OilFiltersTexts": {
+      "OilCategories": "Yağ Filterləri",
+      "Texts1": {
+        "category": "Yağ Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Yağ Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Yağ Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts4": {
+        "category": "Yağ Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
     },
-    "Texts3": {
-      "category": "Hava Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
+    "LineFiltersTexts": {
+      "LineCategories": "Xətt Filterləri",
+      "Texts1": {
+        "category": "Xətt Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Xətt Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Xətt Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts4": {
+        "category": "Xətt Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts5": {
+        "category": "Xətt Filterləri",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
     },
-    "Texts4": {
-      "category": "Hava Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
+    "InFiltersElementTexts": {
+      "InFiltersElementCategories": "Xətt Filter İç Elementi",
+      "Texts1": {
+        "category": "Xətt Filter İç Elementi",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Xətt Filter İç Elementi",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
     },
-    "Texts5": {
-      "category": "Hava Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
+    "AirOilFiltersTexts": {
+      "AirOilFiltersCategories": "Hava-Yağ Separatorları",
+      "Texts1": {
+        "category": "Hava-Yağ Separatorları",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Hava-Yağ Separatorları",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Hava-Yağ Separatorları",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
+    },
+    "SeparatorsTexts": {
+      "SeparatorsCategories": "Separator",
+      "Texts1": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts2": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts3": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      },
+      "Texts4": {
+        "category": "Separator",
+        "title": "Marka : MANN-FILTER",
+        "description": "Ticarət Nömrəsi : C 12 004"
+      }
+    },
+    "SparePartPage": {
+      "Categories": [
+        "Hava Filterləri",
+        "Yağ Filterləri",
+        "Xətt Filterləri",
+        "Xətt Filter İç Elementi",
+        "Hava-Yağ Separatorları",
+        "Separator"
+      ]
     }
   },
-  "OilFiltersTexts": {
-    "Texts1": {
-      "category": "Yağ Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Yağ Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts3": {
-      "category": "Yağ Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts4": {
-      "category": "Yağ Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "LineFiltersTexts": {
-    "Texts1": {
-      "category": "Xətt Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Xətt Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts3": {
-      "category": "Xətt Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts4": {
-      "category": "Xətt Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts5": {
-      "category": "Xətt Filterləri",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "InFiltersElementTexts": {
-    "Texts1": {
-      "category": "Xətt Filter İç Elementi",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Xətt Filter İç Elementi",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "AirOilFiltersTexts": {
-    "Texts1": {
-      "category": "Hava-Yağ Separatorları",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Hava-Yağ Separatorları",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts3": {
-      "category": "Hava-Yağ Separatorları",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "SeparatorsTexts": {
-    "Texts1": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts2": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts3": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    },
-    "Texts4": {
-      "category": "Separator",
-      "title": "Marka : MANN-FILTER",
-      "description": "Ticarət Nömrəsi : C 12 004"
-    }
-  },
-  "SparePartPage": {
-    "Categories": [
-      "Hava Filterləri",
-      "Yağ Filterləri",
-      "Xətt Filterləri",
-      "Xətt Filter İç Elementi",
-      "Hava-Yağ Separatorları",
-      "Separator"
-    ]
-  },
-  "ProductsPart": {
-    "Products": [
-      {
-        "categories": "Lorem 3",
+  "ProductsPartTexts": {
+    "CompressorType1": {
+      "CompressorType1Categories": "CompressorType1",
+      "Text1": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 1",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 1",
+      "Text2": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 2",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 1",
+      "Text3": {
+        "category": "CompressorType1",
         "title": "Diesel Portable Air Compressor 3",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 2",
+      }
+    },
+    "CompressorType2": {
+      "CompressorType2Categories": "CompressorType2",
+      "Text1": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 4",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 2",
+      "Text2": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 5",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 3",
+      "Text3": {
+        "category": "CompressorType2",
         "title": "Diesel Portable Air Compressor 6",
-        "workingPower": "Working power: 34.6-522[kw]",
-        "freeAirDelivery": "Working power: 34.6-522[kw]",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 4",
+      }
+    },
+    "CompressorType3": {
+      "CompressorType3Categories": "CompressorType3",
+      "Text1": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 7",
-        "workingPower": "Working power: 34.6-522[kw]",
-        "freeAirDelivery": "Working power: 34.6-522[kw]",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 5",
+      "Text2": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 8",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 5",
+      "Text3": {
+        "category": "CompressorType3",
         "title": "Diesel Portable Air Compressor 9",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      {
-        "categories": "Lorem 3",
+      }
+    },
+    "CompressorType4": {
+      "CompressorType4Categories": "CompressorType4",
+      "Text1": {
+        "category": "CompressorType4",
         "title": "Diesel Portable Air Compressor 10",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
       },
-      {
-        "categories": "Lorem 5",
+      "Text2": {
+        "category": "CompressorType4",
         "title": "Diesel Portable Air Compressor 11",
         "workingPower": "working power: 34.6-522[kw]",
         "freeAirDelivery": "working power: 34.6-522[kw]",
         "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType4",
+        "title": "Diesel Portable Air Compressor 12",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
       }
-    ],
-    "Categories": ["Lorem 1", "Lorem 2", "Lorem 3", "Lorem 4", "Lorem 5"]
+    },
+    "ProductsParts": {
+      "Categories": [
+        "CompressorType1",
+        "CompressorType2",
+        "CompressorType3",
+        "CompressorType4"
+      ]
+    }
   },
   "CompressorsAndTexts": {
     "FirstCompressor": {
