@@ -1,6 +1,5 @@
 import styles from "./App.module.scss";
 import Footer from "./Components/Footer/Footer";
-import Developer from "./Components/Footer/Developer";
 import { useRef, useState } from "react";
 import Products from "../src/Pages/Products/Products";
 import { Route, Routes } from "react-router-dom";
@@ -78,7 +77,6 @@ export default function App() {
         <Route path="/aboutUs" element={<AboutUs t={t} />} />
       </Routes>
       <Footer footerRef={refs.footerRef} t={t} />
-      <Developer t={t} />
     </div>
   );
 }

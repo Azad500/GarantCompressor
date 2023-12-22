@@ -243,7 +243,7 @@ export default function SparePartsInPage({
               )
               .map((spare, index) => (
                 <div key={index} className={styles.cardItem}>
-                  <img src={spare.image} alt="Spare Part" />
+                  <img src={spare.image} alt="Air Filters" />
                   <div className={styles.onlyTexts}>
                     <h3>{spare.category}</h3>
                     <p>{spare.title}</p>
@@ -258,7 +258,7 @@ export default function SparePartsInPage({
               )
               .map((spare, index) => (
                 <div key={index} className={styles.cardItem}>
-                  <img src={spare.image} alt="Spare Part" />
+                  <img src={spare.image} alt="Oil Filters" />
                   <div className={styles.onlyTexts}>
                     <h3>{spare.category}</h3>
                     <p>{spare.title}</p>
@@ -273,7 +273,7 @@ export default function SparePartsInPage({
               )
               .map((spare, index) => (
                 <div key={index} className={styles.cardItem}>
-                  <img src={spare.image} alt="Spare Part" />
+                  <img src={spare.image} alt="Line Filters" />
                   <div className={styles.onlyTexts}>
                     <h3>{spare.category}</h3>
                     <p>{spare.title}</p>
@@ -288,7 +288,7 @@ export default function SparePartsInPage({
               )
               .map((spare, index) => (
                 <div key={index} className={styles.cardItem}>
-                  <img src={spare.image} alt="Spare Part" />
+                  <img src={spare.image} alt="Filters Element" />
                   <div className={styles.onlyTexts}>
                     <h3>{spare.category}</h3>
                     <p>{spare.title}</p>
@@ -301,7 +301,7 @@ export default function SparePartsInPage({
               selectedCategory ? spare.category === selectedCategory : true
             ).map((spare, index) => (
               <div key={index} className={styles.cardItem}>
-                <img src={spare.image} alt="Spare Part" />
+                <img src={spare.image} alt="Air Oil Filters" />
                 <div className={styles.onlyTexts}>
                   <h3>{spare.category}</h3>
                   <p>{spare.title}</p>
@@ -314,7 +314,7 @@ export default function SparePartsInPage({
               selectedCategory ? spare.category === selectedCategory : true
             ).map((spare, index) => (
               <div key={index} className={styles.cardItem}>
-                <img src={spare.image} alt="Spare Part" />
+                <img src={spare.image} alt="Separator" />
                 <div className={styles.onlyTexts}>
                   <h3>{spare.category}</h3>
                   <p>{spare.title}</p>
