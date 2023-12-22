@@ -37,12 +37,12 @@ export default function NavbarInUp({ t }) {
           <a target="_blank" href={AllInformations.Navbar.InstagramLink}>
             <i className="fa-brands fa-instagram"></i>
           </a>
-          <a target="_blank" href={AllInformations.Navbar.LinkEdinLink}>
+          {/* <a target="_blank" href={AllInformations.Navbar.LinkEdinLink}>
             <i className="fa-brands fa-linkedin"> </i>
           </a>
           <a target="_blank" href={AllInformations.Navbar.TikTokLink}>
             <i className="fa-brands fa-tiktok"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

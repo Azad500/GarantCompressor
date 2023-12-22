@@ -16,14 +16,14 @@ export default function Footer({ footerRef, t }) {
             <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
-        <div className={styles.secondPart}>
+        {/* <div className={styles.secondPart}>
           <a target="_blank" href={AllInformations.Navbar.LinkEdinLink}>
             <i className="fa-brands fa-linkedin"> </i>
           </a>
           <a target="_blank" href={AllInformations.Navbar.TikTokLink}>
             <i className="fa-brands fa-tiktok"></i>
           </a>
-        </div>
+        </div> */}
       </div>
       <div className={styles.numbersAndMailContainer}>
         <div className={styles.whatsaapNumberElement}>
