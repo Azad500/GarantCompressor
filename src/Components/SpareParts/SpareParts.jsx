@@ -105,7 +105,7 @@ export default function SpareParts({ sparePartsRef, t }) {
       </div>
       <div className={styles.detailedSearchElement}>
         <Link
-          to={{ pathname: "/products", state: { fromNavbar: true } }}
+          to={{ pathname: "/spareParts", state: { fromNavbar: true } }}
           className={styles.Link}
         >
           <p>{t("DetailedSearch")}</p>
