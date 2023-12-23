@@ -260,7 +260,7 @@
         "workingPressure": "Working Pressure:7-35[bar]"
       }
     },
-    "ProductsPart": {
+    "ProductsParts": {
       "Categories": [
         "CompressorType1",
         "CompressorType2",
