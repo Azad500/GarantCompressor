@@ -315,7 +315,7 @@ export default function Products({
           alt="Compressor"
         />
         <div className={styles.aboutInProducts}>
-          <p>{t("AboutInProducts")}</p>
+          <p>{t("AboutUsPage.AboutInProducts")}</p>
         </div>
       </div>
     </section>

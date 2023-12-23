@@ -101,26 +101,6 @@
         }
       }
     }
-    .checkAndLanguage:first-child {
-      p:last-child {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-      }
-      &:hover {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-      }
-    }
-    .checkAndLanguage:last-child {
-      p:last-child {
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-      &:hover {
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-    }
   }
   .active {
     display: block;

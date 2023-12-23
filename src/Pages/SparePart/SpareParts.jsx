@@ -341,7 +341,7 @@ export default function SparePartsInPage({
       <div className={styles.compressorInSparePart}>
         <img src={AllInformations.SpareParts.SparePartsImage} alt="SparePart" />
         <div className={styles.aboutInSparePart}>
-          <p>{t("AboutInSpareParts")}</p>
+          <p>{t("AboutUsPage.AboutInSpareParts")}</p>
         </div>
       </div>
     </section>

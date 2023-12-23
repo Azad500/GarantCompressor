@@ -16,11 +16,15 @@ export default function FourCompressors({ productsRef, t }) {
               alt="First Compressor"
             />
             <div className={styles.compressorsTexts}>
-              <a>{t("CompressorsAndTexts.FirstCompressor.AzHeaderText")}</a>
-              <a>{t("CompressorsAndTexts.FirstCompressor.AzFirstTexts")}</a>
-              <a>{t("CompressorsAndTexts.FirstCompressor.AzSecondTexts")}</a>
-              <a>{t("CompressorsAndTexts.FirstCompressor.AzThirdTexts")}</a>
-              <a>{t("CompressorsAndTexts.FirstCompressor.AzFourthTexts")}</a>
+              <a>{t("FourCompressorsAndTexts.FirstCompressor.AzHeaderText")}</a>
+              <a>{t("FourCompressorsAndTexts.FirstCompressor.AzFirstTexts")}</a>
+              <a>
+                {t("FourCompressorsAndTexts.FirstCompressor.AzSecondTexts")}
+              </a>
+              <a>{t("FourCompressorsAndTexts.FirstCompressor.AzThirdTexts")}</a>
+              <a>
+                {t("FourCompressorsAndTexts.FirstCompressor.AzFourthTexts")}
+              </a>
             </div>
           </div>
           {/* ----------------secondImageInUpStep---------------- */}
@@ -31,11 +35,21 @@ export default function FourCompressors({ productsRef, t }) {
               alt="Second Compressor"
             />
             <div className={styles.compressorsTexts}>
-              <a>{t("CompressorsAndTexts.SecondCompressor.AzHeaderText")}</a>
-              <a>{t("CompressorsAndTexts.SecondCompressor.AzFirstTexts")}</a>
-              <a>{t("CompressorsAndTexts.SecondCompressor.AzSecondTexts")}</a>
-              <a>{t("CompressorsAndTexts.SecondCompressor.AzThirdTexts")}</a>
-              <a>{t("CompressorsAndTexts.SecondCompressor.AzFourthTexts")}</a>
+              <a>
+                {t("FourCompressorsAndTexts.SecondCompressor.AzHeaderText")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.SecondCompressor.AzFirstTexts")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.SecondCompressor.AzSecondTexts")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.SecondCompressor.AzThirdTexts")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.SecondCompressor.AzFourthTexts")}
+              </a>
             </div>
           </div>
         </div>
@@ -48,11 +62,15 @@ export default function FourCompressors({ productsRef, t }) {
               alt="Third Compressor"
             />
             <div className={styles.compressorsTexts}>
-              <a>{t("CompressorsAndTexts.ThirdCompressor.AzHeaderText")}</a>
-              <a>{t("CompressorsAndTexts.ThirdCompressor.AzFirstTexts")}</a>
-              <a>{t("CompressorsAndTexts.ThirdCompressor.AzSecondTexts")}</a>
-              <a>{t("CompressorsAndTexts.ThirdCompressor.AzThirdTexts")}</a>
-              <a>{t("CompressorsAndTexts.ThirdCompressor.AzFourthTexts")}</a>
+              <a>{t("FourCompressorsAndTexts.ThirdCompressor.AzHeaderText")}</a>
+              <a>{t("FourCompressorsAndTexts.ThirdCompressor.AzFirstTexts")}</a>
+              <a>
+                {t("FourCompressorsAndTexts.ThirdCompressor.AzSecondTexts")}
+              </a>
+              <a>{t("FourCompressorsAndTexts.ThirdCompressor.AzThirdTexts")}</a>
+              <a>
+                {t("FourCompressorsAndTexts.ThirdCompressor.AzFourthTexts")}
+              </a>
             </div>
           </div>
           {/* ----------------secondImageInDownStep---------------- */}
@@ -63,11 +81,21 @@ export default function FourCompressors({ productsRef, t }) {
               alt="Fourth Compressor"
             />
             <div className={styles.compressorsTexts}>
-              <a>{t("CompressorsAndTexts.FourthCompressor.AzHeaderText")}</a>
-              <a>{t("CompressorsAndTexts.FourthCompressor.AzFirstTexts")}</a>
-              <a>{t("CompressorsAndTexts.FourthCompressor.AzSecondTexts")}</a>
-              <a>{t("CompressorsAndTexts.FourthCompressor.AzThirdTexts")}</a>
-              <a>{t("CompressorsAndTexts.FourthCompressor.AzFourthTexts")}</a>
+              <a>
+                {t("FourCompressorsAndTexts.FourthCompressor.AzHeaderText")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.FourthCompressor.AzFirstTexts")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.FourthCompressor.AzSecondTexts")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.FourthCompressor.AzThirdTexts")}
+              </a>
+              <a>
+                {t("FourCompressorsAndTexts.FourthCompressor.AzFourthTexts")}
+              </a>
             </div>
           </div>
         </div>

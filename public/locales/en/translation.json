@@ -1,7 +1,4 @@
 {
-  "MakeSite": "Prepared the site",
-  "FirstDeveloperName": "Azad Mirzazada : (+994)70 842 40 43",
-  "SecondDeveloperName": "Said Isaoglu : (+994)50 367 98 99",
   "Home": "Home",
   "Products": "Products",
   "Partners": "Partners",
@@ -16,8 +13,112 @@
   "TheWorldDeliveryText": "We Carry Out Delivery of Any Kind of Compressors from Different Countries of the World.",
   "DetailedSearch": "More >",
   "DetailedSearchText": "See more >",
-  "AboutInProducts": "In addition to the compressors you see above, we buy and deliver any type of compressors directly from the manufacturer. If you do not have the compressor you want in our Products section, you can contact us and get the compressor you want in a short time!",
-  "AboutInSpareParts": "In addition to the spare parts you see above, we buy and deliver any type of spare parts directly from the manufacturer. If you don't have the spare part you want in the spare parts section, you can contact us and get the spare part you want in a short time!",
+  "ProductsPartTexts": {
+    "CompressorType1": {
+      "CompressorType1Categories": "CompressorType1",
+      "Text1": {
+        "category": "CompressorType1",
+        "title": "Diesel Portable Air Compressor 1",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text2": {
+        "category": "CompressorType1",
+        "title": "Diesel Portable Air Compressor 2",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType1",
+        "title": "Diesel Portable Air Compressor 3",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      }
+    },
+    "CompressorType2": {
+      "CompressorType2Categories": "CompressorType2",
+      "Text1": {
+        "category": "CompressorType2",
+        "title": "Diesel Portable Air Compressor 4",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text2": {
+        "category": "CompressorType2",
+        "title": "Diesel Portable Air Compressor 5",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType2",
+        "title": "Diesel Portable Air Compressor 6",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      }
+    },
+    "CompressorType3": {
+      "CompressorType3Categories": "CompressorType3",
+      "Text1": {
+        "category": "CompressorType3",
+        "title": "Diesel Portable Air Compressor 7",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text2": {
+        "category": "CompressorType3",
+        "title": "Diesel Portable Air Compressor 8",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType3",
+        "title": "Diesel Portable Air Compressor 9",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      }
+    },
+    "CompressorType4": {
+      "CompressorType4Categories": "CompressorType4",
+      "Text1": {
+        "category": "CompressorType4",
+        "title": "Diesel Portable Air Compressor 10",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text2": {
+        "category": "CompressorType4",
+        "title": "Diesel Portable Air Compressor 11",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      },
+      "Text3": {
+        "category": "CompressorType4",
+        "title": "Diesel Portable Air Compressor 12",
+        "workingPower": "working power: 34.6-522[kw]",
+        "freeAirDelivery": "working power: 34.6-522[kw]",
+        "workingPressure": "Working Pressure:7-35[bar]"
+      }
+    },
+    "ProductsParts": {
+      "Categories": [
+        "CompressorType1",
+        "CompressorType2",
+        "CompressorType3",
+        "CompressorType4"
+      ]
+    }
+  },
   "SparePartsTexts": {
     "AirFiltersTexts": {
       "AirCategories": "Air Filters",
@@ -163,149 +264,37 @@
       ]
     }
   },
-  "ProductsPartTexts": {
-    "CompressorType1": {
-      "CompressorType1Categories": "CompressorType1",
-      "Text1": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text2": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 2",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text3": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 3",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      }
-    },
-    "CompressorType2": {
-      "CompressorType2Categories": "CompressorType2",
-      "Text1": {
-        "category": "CompressorType2",
-        "title": "Diesel Portable Air Compressor 4",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text2": {
-        "category": "CompressorType2",
-        "title": "Diesel Portable Air Compressor 5",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text3": {
-        "category": "CompressorType2",
-        "title": "Diesel Portable Air Compressor 6",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      }
-    },
-    "CompressorType3": {
-      "CompressorType3Categories": "CompressorType3",
-      "Text1": {
-        "category": "CompressorType3",
-        "title": "Diesel Portable Air Compressor 7",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text2": {
-        "category": "CompressorType3",
-        "title": "Diesel Portable Air Compressor 8",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text3": {
-        "category": "CompressorType3",
-        "title": "Diesel Portable Air Compressor 9",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      }
-    },
-    "CompressorType4": {
-      "CompressorType4Categories": "CompressorType4",
-      "Text1": {
-        "category": "CompressorType4",
-        "title": "Diesel Portable Air Compressor 10",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text2": {
-        "category": "CompressorType4",
-        "title": "Diesel Portable Air Compressor 11",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      },
-      "Text3": {
-        "category": "CompressorType4",
-        "title": "Diesel Portable Air Compressor 12",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
-      }
-    },
-    "ProductsParts": {
-      "Categories": [
-        "CompressorType1",
-        "CompressorType2",
-        "CompressorType3",
-        "CompressorType4"
-      ]
-    }
-  },
-  "CompressorsAndTexts": {
+  "FourCompressorsAndTexts": {
     "FirstCompressor": {
-      "AzHeaderText": "Vintli Kompressor",
+      "AzHeaderText": "Vintli Kompressor 1",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
       "AzThirdTexts": "Yağsız Hava Kompressoru",
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "SecondCompressor": {
-      "AzHeaderText": "Vintli Kompressor",
+      "AzHeaderText": "Vintli Kompressor 2",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
       "AzThirdTexts": "Yağsız Hava Kompressoru",
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "ThirdCompressor": {
-      "AzHeaderText": "Vintli Kompressor",
+      "AzHeaderText": "Vintli Kompressor 3",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
       "AzThirdTexts": "Yağsız Hava Kompressoru",
       "AzFourthTexts": "Ətraflı Bax >"
     },
     "FourthCompressor": {
-      "AzHeaderText": "Vintli Kompressor",
+      "AzHeaderText": "Vintli Kompressor 4",
       "AzFirstTexts": "Enerjiyə Qənaət Edən Vintli Kompressor",
       "AzSecondTexts": "Portativ Hava Kompressoru",
       "AzThirdTexts": "Yağsız Hava Kompressoru",
       "AzFourthTexts": "Ətraflı Bax >"
     }
   },
-  "CompanyProfile": {
-    "AzCompanyProfile": "About",
-    "AzCompanyName": "GARANT COMPRESSOR LLC",
-    "AzAboutCompany": "We as Garant Kompressor have been operating since 2011. Regardless of the model and brand, we are engaged in the service and sale of spare parts for compressors of well-known companies such as Atlascopro, Ekomak, Dalga Kiran. Our work covers all areas of the industry. we guarantee the work and every spare part we sell. Every customer we work with is happy with us. Because Our Work Is Our Name!",
-    "AzDetailedSearchTexts": "See more >"
-  },
-  "SparePart": {
+  "FourSparePart": {
     "SparePartFirst": {
       "SparePartText1": "MANN FILTER",
       "SparePartText2": "Oil filter (W 962/14)"
@@ -323,8 +312,16 @@
       "SparePartText2": "Oil separator"
     }
   },
+  "CompanyProfile": {
+    "AzCompanyProfile": "About",
+    "AzCompanyName": "GARANT COMPRESSOR LLC",
+    "AzAboutCompany": "We as Garant Kompressor have been operating since 2011. Regardless of the model and brand, we are engaged in the service and sale of spare parts for compressors of well-known companies such as Atlascopro, Ekomak, Dalga Kiran. Our work covers all areas of the industry. we guarantee the work and every spare part we sell. Every customer we work with is happy with us. Because Our Work Is Our Name!",
+    "AzDetailedSearchTexts": "See more >"
+  },
   "AboutUsPage": {
     "title": "Our Customers",
+    "AboutInSpareParts": "In addition to the spare parts you see above, we buy and deliver any type of spare parts directly from the manufacturer. If you don't have the spare part you want in the spare parts section, you can contact us and get the spare part you want in a short time!",
+    "AboutInProducts": "In addition to the compressors you see above, we buy and deliver any type of compressors directly from the manufacturer. If you do not have the compressor you want in our Products section, you can contact us and get the compressor you want in a short time!",
     "FirstInfo": {
       "title": "Reliability",
       "description": "We offer compressors from well-known compressor manufacturers, advanced technology and quality German manufacturers."

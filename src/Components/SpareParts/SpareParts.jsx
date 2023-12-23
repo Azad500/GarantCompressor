@@ -1,6 +1,7 @@
 import styles from "./SpareParts.module.scss";
 import { Link } from "react-router-dom";
 import AllInformations from "../../informations";
+
 export default function SpareParts({ sparePartsRef, t }) {
   return (
     <section ref={sparePartsRef} className={styles.section}>
@@ -20,15 +21,14 @@ export default function SpareParts({ sparePartsRef, t }) {
               />
             </div>
             <div className={styles.sparePartTexts}>
-              <p>{t("SparePart.SparePartFirst.SparePartText1")}</p>
-              <p>{t("SparePart.SparePartFirst.SparePartText2")}</p>
+              <p>{t("FourSparePart.SparePartFirst.SparePartText1")}</p>
+              <p>{t("FourSparePart.SparePartFirst.SparePartText2")}</p>
               <div className={styles.buttonElement}>
-                <button className={styles.sparePartButton}>
-                  <Link className={styles.link} to="/products">
-                    {" "}
+                <Link className={styles.link} to="/spareParts">
+                  <button className={styles.sparePartButton}>
                     {t("DetailedSearchText")}
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -42,15 +42,14 @@ export default function SpareParts({ sparePartsRef, t }) {
               />
             </div>
             <div className={styles.sparePartTexts}>
-              <p>{t("SparePart.SparePartSecond.SparePartText1")}</p>
-              <p>{t("SparePart.SparePartSecond.SparePartText2")}</p>
+              <p>{t("FourSparePart.SparePartSecond.SparePartText1")}</p>
+              <p>{t("FourSparePart.SparePartSecond.SparePartText2")}</p>
               <div className={styles.buttonElement}>
-                <button className={styles.sparePartButton}>
-                  <Link className={styles.link} to="/products">
-                    {" "}
+                <Link className={styles.link} to="/spareParts">
+                  <button className={styles.sparePartButton}>
                     {t("DetailedSearchText")}
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -67,15 +66,14 @@ export default function SpareParts({ sparePartsRef, t }) {
               />
             </div>
             <div className={styles.sparePartTexts}>
-              <p>{t("SparePart.SparePartThird.SparePartText1")}</p>
-              <p>{t("SparePart.SparePartThird.SparePartText2")}</p>
+              <p>{t("FourSparePart.SparePartThird.SparePartText1")}</p>
+              <p>{t("FourSparePart.SparePartThird.SparePartText2")}</p>
               <div className={styles.buttonElement}>
-                <button className={styles.sparePartButton}>
-                  <Link className={styles.link} to="/products">
-                    {" "}
+                <Link className={styles.link} to="/spareParts">
+                  <button className={styles.sparePartButton}>
                     {t("DetailedSearchText")}
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -89,15 +87,14 @@ export default function SpareParts({ sparePartsRef, t }) {
               />
             </div>
             <div className={styles.sparePartTexts}>
-              <p>{t("SparePart.SparePartFourth.SparePartText1")}</p>
-              <p>{t("SparePart.SparePartFourth.SparePartText2")}</p>
+              <p>{t("FourSparePart.SparePartFourth.SparePartText1")}</p>
+              <p>{t("FourSparePart.SparePartFourth.SparePartText2")}</p>
               <div className={styles.buttonElement}>
-                <button className={styles.sparePartButton}>
-                  <Link className={styles.link} to="/products">
-                    {" "}
+                <Link className={styles.link} to="/spareParts">
+                  <button className={styles.sparePartButton}>
                     {t("DetailedSearchText")}
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
