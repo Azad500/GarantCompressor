@@ -55,20 +55,20 @@ export default function NavbarInDown({
         <li>
           <a href="/">{t("Home")}</a>
         </li>
-        {location.pathname === "/products" ||
+        {location.pathname === "/spareParts" ||
         location.pathname === "/aboutUs" ? (
           <li>
-            <Link to="/spareParts">{t("Products")}</Link>
+            <Link to="/products">{t("Products")}</Link>
           </li>
         ) : (
           <li>
             <a onClick={() => handleClick("productsRef")}>{t("Products")}</a>
           </li>
         )}
-        {location.pathname === "/spareParts" ||
+        {location.pathname === "/products" ||
         location.pathname === "/aboutUs" ? (
           <li>
-            <Link to="/products">{t("SpareParts")}</Link>
+            <Link to="/spareParts">{t("SpareParts")}</Link>
           </li>
         ) : (
           <li>

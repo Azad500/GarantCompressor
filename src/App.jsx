@@ -53,7 +53,7 @@ export default function App() {
           }
         />
         <Route
-          path="/spareParts"
+          path="/products"
           element={
             <Products
               pagesHamburgerBar={pagesHamburgerBar}
@@ -64,7 +64,7 @@ export default function App() {
           }
         />
         <Route
-          path="/products"
+          path="/spareParts"
           element={
             <SparePartsInPage
               pagesHamburgerBar={pagesHamburgerBar}
