@@ -15,27 +15,27 @@
   "DetailedSearchText": "Узнать больше >",
   "ProductsPartTexts": {
     "CompressorType1": {
-      "CompressorType1Categories": "CompressorType1",
+      "CompressorType1Categories": "Осушители воздуха для компрессоров",
       "Text1": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Осушители воздуха для компрессоров",
+        "title": "Осушитель воздуха Экомак",
+        "workingPressure": "Давление: 13 баров",
+        "motorPower": "Мощность двигателя: 1,80",
+        "weight": "Вес: 128 кг"
       },
       "Text2": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 2",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Осушители воздуха для компрессоров",
+        "title": "Осушитель воздуха Calypso",
+        "workingPressure": "Давление: 13 баров",
+        "motorPower": "Мощность двигателя: 1,08",
+        "weight": "Вес: 61 кг"
       },
       "Text3": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 3",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Осушители воздуха для компрессоров",
+        "title": "Осушитель воздуха Filo",
+        "workingPressure": "Давление: 16 баров",
+        "motorPower": "Мощность двигателя: 1,08",
+        "weight": "Вес: - кг"
       }
     },
     "CompressorType2": {
@@ -112,7 +112,7 @@
     },
     "ProductsParts": {
       "Categories": [
-        "CompressorType1",
+        "Осушители воздуха для компрессоров",
         "CompressorType2",
         "CompressorType3",
         "CompressorType4"

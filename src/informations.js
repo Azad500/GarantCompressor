@@ -58,6 +58,9 @@ import MederaHospitalLogo from "./Images/AboutUs/Customers/MederaHospitalLogo.pn
 import MedicalPlaza from "./Images/AboutUs/Customers/MedicalPlaza.png";
 import AnadoluUnLogo from "./Images/AboutUs/Customers/AnadoluUnLogo.png";
 import BakiSenayeZavoduLogo from "./Images/AboutUs/Customers/BakiSenayeZavoduLogo.png";
+import EkomakAirCompressor from "./Images/Products/AirCompressor/EkomakAirCompressor.png";
+import CalypsoAirCompressor from "./Images/Products/AirCompressor/CalypsoAirCompressor.png";
+import FiloAirCompressor from "./Images/Products/AirCompressor/FiloAirCompressor.png";
 
 const AllInformations = {
   Navbar: {
@@ -118,9 +121,9 @@ const AllInformations = {
   },
   ProductsImages: {
     CompressorType1: {
-      ProductsImage1: ProductsImage1,
-      ProductsImage2: ProductsImage2,
-      ProductsImage3: ProductsImage3,
+      EkomakAirCompressor: EkomakAirCompressor,
+      CalypsoAirCompressor: CalypsoAirCompressor,
+      FiloAirCompressor: FiloAirCompressor,
     },
     CompressorType2: {
       ProductsImage4: ProductsImage4,

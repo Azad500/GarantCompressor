@@ -15,27 +15,27 @@
   "DetailedSearchText": "See more >",
   "ProductsPartTexts": {
     "CompressorType1": {
-      "CompressorType1Categories": "CompressorType1",
+      "CompressorType1Categories": "Air dryers for compressors",
       "Text1": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Air dryers for compressors",
+        "title": "Ekomak Air Dryer",
+        "workingPressure": "Pressure : 13 bar",
+        "motorPower": "Motor power : 1.80",
+        "weight": "Weight : 128 kg"
       },
       "Text2": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 2",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Air dryers for compressors",
+        "title": "Calypso Air Dryer",
+        "workingPressure": "Pressure : 13 bar",
+        "motorPower": "Motor power : 1.08",
+        "weight": "Weight : 61 kg"
       },
       "Text3": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 3",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Air dryers for compressors",
+        "title": "Filo Air Dryer",
+        "workingPressure": "Pressure : 16 bar",
+        "motorPower": "Motor power : 1.08",
+        "weight": "Weight : - kg"
       }
     },
     "CompressorType2": {
@@ -112,7 +112,7 @@
     },
     "ProductsParts": {
       "Categories": [
-        "CompressorType1",
+        "Air dryers for compressors",
         "CompressorType2",
         "CompressorType3",
         "CompressorType4"

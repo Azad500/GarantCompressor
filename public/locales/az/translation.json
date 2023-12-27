@@ -15,27 +15,27 @@
   "DetailedSearchText": "Ətraflı Bax >",
   "ProductsPartTexts": {
     "CompressorType1": {
-      "CompressorType1Categories": "CompressorType1",
+      "CompressorType1Categories": "Kompressorlar üçün Hava quruducuları",
       "Text1": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 1",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Kompressorlar üçün Hava quruducuları",
+        "title": "Ekomak Hava Quruducusu",
+        "workingPressure": "Təzyiq : 13 bar",
+        "motorPower": "Mühərrikin gücü : 1.80",
+        "weight": "Çəki : 128 kg"
       },
       "Text2": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 2",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Kompressorlar üçün Hava quruducuları",
+        "title": "Calypso Hava Quruducusu",
+        "workingPressure": "Təzyiq : 13 bar",
+        "motorPower": "Mühərrikin gücü : 1.08",
+        "weight": "Çəki : 61 kg"
       },
       "Text3": {
-        "category": "CompressorType1",
-        "title": "Diesel Portable Air Compressor 3",
-        "workingPower": "working power: 34.6-522[kw]",
-        "freeAirDelivery": "working power: 34.6-522[kw]",
-        "workingPressure": "Working Pressure:7-35[bar]"
+        "category": "Kompressorlar üçün Hava quruducuları",
+        "title": "Filo Hava Quruducusu",
+        "workingPressure": "Təzyiq : 16 bar",
+        "motorPower": "Mühərrikin gücü : 1.08",
+        "weight": "Çəki : - kg"
       }
     },
     "CompressorType2": {
@@ -112,7 +112,7 @@
     },
     "ProductsParts": {
       "Categories": [
-        "CompressorType1",
+        "Kompressorlar üçün Hava quruducuları",
         "CompressorType2",
         "CompressorType3",
         "CompressorType4"

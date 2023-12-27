@@ -50,39 +50,34 @@ export default function Products({
   const CompressorType1Info = [
     {
       category: t("ProductsPartTexts.CompressorType1.Text1.category"),
-      image: AllInformations.ProductsImages.CompressorType1.ProductsImage1,
+      image: AllInformations.ProductsImages.CompressorType1.EkomakAirCompressor,
       title: t("ProductsPartTexts.CompressorType1.Text1.title"),
-      workingPower: t("ProductsPartTexts.CompressorType1.Text1.workingPower"),
-      freeAirDelivery: t(
-        "ProductsPartTexts.CompressorType1.Text1.freeAirDelivery"
-      ),
-      workingPressure: t(
+      workingPower: t(
         "ProductsPartTexts.CompressorType1.Text1.workingPressure"
       ),
+      freeAirDelivery: t("ProductsPartTexts.CompressorType1.Text1.motorPower"),
+      workingPressure: t("ProductsPartTexts.CompressorType1.Text1.weight"),
     },
     {
       category: t("ProductsPartTexts.CompressorType1.Text2.category"),
-      image: AllInformations.ProductsImages.CompressorType1.ProductsImage2,
+      image:
+        AllInformations.ProductsImages.CompressorType1.CalypsoAirCompressor,
       title: t("ProductsPartTexts.CompressorType1.Text2.title"),
-      workingPower: t("ProductsPartTexts.CompressorType1.Text2.workingPower"),
-      freeAirDelivery: t(
-        "ProductsPartTexts.CompressorType1.Text2.freeAirDelivery"
-      ),
-      workingPressure: t(
+      workingPower: t(
         "ProductsPartTexts.CompressorType1.Text2.workingPressure"
       ),
+      freeAirDelivery: t("ProductsPartTexts.CompressorType1.Text2.motorPower"),
+      workingPressure: t("ProductsPartTexts.CompressorType1.Text2.weight"),
     },
     {
       category: t("ProductsPartTexts.CompressorType1.Text3.category"),
-      image: AllInformations.ProductsImages.CompressorType1.ProductsImage3,
+      image: AllInformations.ProductsImages.CompressorType1.FiloAirCompressor,
       title: t("ProductsPartTexts.CompressorType1.Text3.title"),
-      workingPower: t("ProductsPartTexts.CompressorType1.Text3.workingPower"),
-      freeAirDelivery: t(
-        "ProductsPartTexts.CompressorType1.Text3.freeAirDelivery"
-      ),
-      workingPressure: t(
+      workingPower: t(
         "ProductsPartTexts.CompressorType1.Text3.workingPressure"
       ),
+      freeAirDelivery: t("ProductsPartTexts.CompressorType1.Text3.motorPower"),
+      workingPressure: t("ProductsPartTexts.CompressorType1.Text3.weight"),
     },
   ];
 
